@@ -1,0 +1,25 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Builds/
+/HybridCLRData/
+/LocalOnly/
+/Tests/bin/
+/Tests/obj/
+*.csproj.user
+/.vs/
+/.idea/
+/*.log
+**/__pycache__/
+*.pyc
+# Generated signed packages and local test runs are rebuildable; never version signing keys.
+/Assets/StreamingAssets/
+/Assets/StreamingAssets.meta
+/TestResults/*
+!/TestResults/*.md
+!/TestResults/core-tests.json
+*signing-key*
+*.pfx
+*.p12

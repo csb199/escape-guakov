@@ -1,0 +1,13 @@
+{
+    "clientBuild": "unity2022.3.62f1-win64-il2cpp-9ba9e45782fea0ca",
+    "platform": "StandaloneWindows64",
+    "remoteDirectory": "",
+    "publicKey": "<RSAKeyValue><Modulus>w45MyGpV+5LMXDzOMWKZb48bdmrElxkl86rihNjP+0xBbawj7G9fePuwdhujvt0Cr4Ag1p9mIbXQulwYNY4ll+QVOVTKSLQs8J+7gfP8zQdmKZLR4wfqj6jicTDwQvyiMo+6dxG8LJtndMiRtoTZ7Pkw14uvpP2PyHOJ2QwCTYSmVB/47pvLGQquhCoKhs4ARHANuOfU6LMSdm2T7Bb47iEReH5rQtW4hg3+79J4iR57A4+mMhsIQJU9NqmK9qlqbpvW9/s6938YIpxAM+CdUW8iAhkd198V7AvpXsxZ56ONOdz3QXSzsxQuYf7EpVV3JcgB5WNgA7m6Y0VNPdpMWQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>",
+    "developmentLogLevel": 0,
+    "releaseLogLevel": 1,
+    "updateCache": {
+        "maxBytes": 8589934592,
+        "minimumFreeBytes": 268435456,
+        "staleHours": 48
+    }
+}

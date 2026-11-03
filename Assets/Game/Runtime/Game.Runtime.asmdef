@@ -1,0 +1,1 @@
+{"name":"Game.Runtime","rootNamespace":"Game.Runtime","references":["Game.Contracts","Game.Core","UnityEngine.UI"]}

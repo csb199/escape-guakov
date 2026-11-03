@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Assets/Game/Contracts/*.cs" />
+    <Compile Include="../Assets/Game/Core/*.cs" />
+    <Compile Include="../Assets/Game/HotUpdate/Demo/Services/DemoModel.cs" />
+    <Compile Include="../Assets/Game/HotUpdate/Demo/Services/Scores.cs" />
+    <Compile Include="*.cs" />
+  </ItemGroup>
+</Project>

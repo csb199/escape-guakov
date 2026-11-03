@@ -1,0 +1,1 @@
+{"name":"Game.Bootstrap","rootNamespace":"Game.Bootstrap","references":["Game.Contracts","Game.Core","Game.Runtime","HybridCLR.Runtime"]}

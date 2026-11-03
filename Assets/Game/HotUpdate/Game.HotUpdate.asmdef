@@ -1,0 +1,1 @@
+{"name":"Game.HotUpdate","rootNamespace":"Game.HotUpdate","references":["Game.Contracts","Game.Core","Game.Runtime","UnityEngine.UI"]}

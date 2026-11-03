@@ -1,0 +1,1 @@
+{"name":"Game.Editor","rootNamespace":"Game.Editor","references":["Game.Contracts","Game.Core","Game.Runtime","Game.Bootstrap","HybridCLR.Runtime","HybridCLR.Editor"],"includePlatforms":["Editor"]}
