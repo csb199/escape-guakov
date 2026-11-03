@@ -16,7 +16,7 @@ namespace Game.Runtime
     /// Resources：AB/资源缓存、依赖图、租约；Scenes：场景包加载及流程退出卸载。
     /// Entities：实例创建/查询/父子挂载/回收/缓存；Ui：UIForm；Audio：音频组及播放。
     /// Log/Events：日志与事件。presentation 模块仅维护 Unity EventSystem。
-    /// FSM/Procedure 在 Core，由热更业务组装；成绩、存档模型、排行榜归 DemoServices。
+    /// FSM/Procedure 在 Core，由接入方组装；业务数据、存档模型与远端协议由业务模块管理。
     /// 注册顺序与依赖见构造函数；新增框架模块在此组装，业务模块在 IGameEntry 注册。
     /// 完整目录、模块 ID 与修改边界：项目根 CODEMAP.md。
     /// </summary>

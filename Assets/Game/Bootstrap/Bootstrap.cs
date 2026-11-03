@@ -17,8 +17,8 @@ namespace Game.Bootstrap
     /// BootCoreAsync：配置/日志 → 更新校验与修复 → HybridCLR 元数据/DLL → GameRuntime
     /// → IGameEntry.RegisterModules → ModuleHost.StartAsync → 提交健康版本。
     /// ShutdownAsync：取消启动/入口任务，等待模块逆序停止，再释放依赖资源。
-    /// 框架能力在 Contracts/Core/Runtime；示例业务在 HotUpdate/Demo，禁止在这里写玩法。
-    /// --self-test、故障注入、IDemoValidation 是 Demo 验证接缝，不是正式游戏业务流程。
+    /// 通用能力在 Contracts/Core/Runtime；业务通过 IGameEntry 接入，本类只负责宿主生命周期。
+    /// --self-test、故障注入、IDemoValidation 用于框架自动验收。
     /// </summary>
     public sealed class Bootstrap : MonoBehaviour
     {

@@ -1,6 +1,7 @@
 # AI 协作入口
 
 - 始终使用简体中文回复。
+- 项目说明与入口注释以框架能力、架构、目录职责和接入契约为主；Demo 只标注为可替换的使用示例，不将其玩法描述为项目目标。各目录 README 是阅读入口。
 - 开始修改前先读 CODEMAP.md；框架冷启动入口是 Assets/Game/Bootstrap/Bootstrap.cs，服务组装入口是 Assets/Game/Runtime/GameRuntime.cs，示例业务入口是 Assets/Game/HotUpdate/Demo/Entry/GameEntry.cs。
 - Contracts/Core/Runtime/Bootstrap 是 AOT 稳定层，HotUpdate/Demo 是示例业务。不得将 Demo 成绩、UI 布局或排行榜规则搬入通用框架。
 - 保持 StateScope 的取消与等待、模块依赖、资源租约、实体父子所有权边界。移动 Unity 资产时连同 .meta 保留 GUID；更改程序集名和入口全名需同步发布契约。

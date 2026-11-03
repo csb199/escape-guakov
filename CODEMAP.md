@@ -1,103 +1,71 @@
-# 代码分类与 AI 阅读入口
+# 文件夹分类与框架阅读入口
 
-本文件描述当前源码的边界。先读本文件，再沿入口阅读；历史验收报告用于追溯，不作为当前目录索引。Unity 2022.3 LTS / Windows / HybridCLR。
+按“契约 → 核心 → 引擎适配 → 启动 → 业务接入”阅读。各目录 README 是本目录说明，GitHub 文件列表中的提交文字仅表示最近变更。
 
-## 先读这三个入口
+## 主入口
 
-1. [Bootstrap.cs](Assets/Game/Bootstrap/Bootstrap.cs)：AOT 冷启动、更新验证、元数据与 DLL 加载、统一退出。
-2. [GameRuntime.cs](Assets/Game/Runtime/GameRuntime.cs)：框架服务组装、模块依赖和注入入口。
-3. [GameEntry.cs](Assets/Game/HotUpdate/Demo/Entry/GameEntry.cs)：示例游戏热更入口、业务模块注册、流程组装和帧驱动。
-
-程序集边界保持 `Contracts ← Core ← Runtime`。Bootstrap 使用稳定层，通过 IGameEntry 调用热更入口，不能静态引用 Game.HotUpdate。**HotUpdate 表示部署方式，不代表其中的代码是通用框架；当前 HotUpdate/Demo 全部是可替换的示例业务。**
-
-## 目录分类
-
-| 类别 | 目录 | 内容与修改边界 |
+| 阅读次序 | 文件 | 关注点 |
 |---|---|---|
-| 框架契约 / AOT | Assets/Game/Contracts | IModule、IGameEntry、日志/传输/序列化契约；不放具体玩法 |
-| 框架核心 / AOT | Assets/Game/Core | ModuleHost、FSM/Procedure、StateScope、实体父子/缓存、事件、日志、存档基础、更新与发布校验；不依赖 Unity |
-| Unity 适配 / AOT | Assets/Game/Runtime | AB/资源租约、场景、实体、UIForm、音频、配置与服务组装；不存成绩或业务数据 |
-| 启动宿主 / AOT | Assets/Game/Bootstrap | Boot 场景入口、HybridCLR 加载与统一关闭；包含明确标注的 Demo 测试接缝 |
-| 示例业务 / 热更 | Assets/Game/HotUpdate/Demo | 大厅、战斗、结算、能量球、界面、成绩、模拟排行榜和验收 |
-| 示例内容构建 / Editor | Assets/Game/Editor/Demo | DemoBuilder：生成示例资源、场景、签名包及完整客户端 |
-| 独立发布工具 / Editor | Assets/Game/Editor/Publishing | ReleasePublisher：冻结基线检查、兼容代码与资源发布；当前资源构建仍调用 DemoBuilder.BuildContent，新游戏需替换内容配置 |
-| 示例素材 | Assets/Game/Content、HotScenes | 预制体、材质、音频与各版本热更新场景；资源路径仍保留，避免改变构建地址 |
-| 启动场景 | Assets/Game/Scenes | 只有 Boot 进入 Player；旧 Lobby/Arena 空场景文件不在构建列表，玩法场景来自 HotScenes |
-| 启动配置 | Assets/Resources/game-config.json | 公钥、平台、客户端标识、日志与更新缓存设置；不是业务配置表 |
-| 构建生成内容 | Assets/StreamingAssets、Assets/HybridCLR | 前者是签名运行包，Git 忽略并通过 Prepare/Build 生成；后者是 HybridCLR 生成引用等，不能作为手写业务编辑 |
-| 第三方依赖 | Packages | HybridCLR、UGUI 及许可证，独立于自研框架 |
-| 自动测试 | Tests | .NET 核心回归；另编译 Demo 的纯 C# 数据/排行榜以验证示例边界 |
-| 自动化工具 | Tools | 构建、发布、Editor/Player 验收、交付打包、离线源码镜像同步 |
-| 文档与结果 | 根目录 *.md、TestResults | 架构、使用与历史验收；Git 仅保留 TestResults 文档及核心结果，运行目录不上传 |
-| 本机生成数据 | Builds、Library、Temp、Logs、LocalOnly 等 | Player、冻结基线、缓存、备份、离线镜像及签名私钥，均不进入 Git |
+| 1 | [Contracts.cs](Assets/Game/Contracts/Contracts.cs) | IGameEntry、IModule 等共享契约 |
+| 2 | [Lifecycle.cs](Assets/Game/Core/Lifecycle.cs) | ModuleHost 的依赖排序、启动和关闭 |
+| 3 | [GameRuntime.cs](Assets/Game/Runtime/GameRuntime.cs) | 基础服务注册、依赖与构造注入 |
+| 4 | [Bootstrap.cs](Assets/Game/Bootstrap/Bootstrap.cs) | 更新验证、HybridCLR 加载与统一退出 |
+| 5 | [GameEntry.cs](Assets/Game/HotUpdate/Demo/Entry/GameEntry.cs) | IGameEntry 的参考实现；注册业务并驱动流程 |
 
-## Demo 内部分类
+## 文件夹职责
 
-```text
-Assets/Game/HotUpdate/
-  Game.HotUpdate.asmdef       保持程序集名与引用关系
-  Demo/
-    Entry/GameEntry.cs       GameEntry + DemoController + DemoReport
-    Procedures/             DemoProcedure、Lobby、Battle、Result
-    Entities/               EnergyOrbLogic：能量球自身行为
-    UI/                     DemoView：示例窗口与展示世界
-    Services/               DemoServices、DemoModel、Scores
-    Validation/             DemoValidation、ServicesValidation、WorldValidation、ShutdownProbe
-```
-
-`DemoServices` 管理 DemoConfig、SaveData、ScoreClient、MockScoreTransport 和示例资源组；这些不是正式联网后端或通用存档 schema。Validation 故意跨越游戏流程做验收，不能复制其测试编排来替代正常业务生命周期。GameEntry 中的验证入口和 Contracts.IDemoValidation 是现有测试接缝，并未声称验证代码从业务程序集完全剥离。
-
-Runtime/UnityServices.cs 同时包含 JSON、异步操作、租约和 UI 创建辅助；其中旧 GameObjectPool 是保留的简单池辅助，当前玩法实体走 EntityService，不应将其作为新实体入口。
-
-## 模块与运行链路
-
-| 模块 ID | 实现 | 职责 / 依赖 |
+| 目录 | 分类 | 入口与边界 |
 |---|---|---|
-| resources | ResourceService | 资源地址、AB 依赖、加载缓存和租约 |
-| presentation | GameRuntime 内部 ServiceModule | EventSystem；依赖 resources |
-| scenes | SceneService | 包场景加载/卸载和所有权；依赖 resources |
-| ui | UiService | 窗口生命周期；依赖 resources/presentation |
-| entities | EntityService | 创建、查询、挂载、回收与缓存；依赖 resources |
-| audio | AudioService | 分组、播放与回收；依赖 resources |
-| demo.gameplay | DemoServices | 示例业务；依赖 entities/ui/audio/scenes |
-| demo.shutdown-probe | ShutdownProbe | 仅验证参数启用的异步退出探针 |
-| game.entry | GameEntryModule | 包装 IGameEntry，依赖前面全部已注册模块，最后启动、最先停止 |
+| [Contracts](Assets/Game/Contracts/README.md) | AOT 共享契约 | 不声明具体业务数据 |
+| [Core](Assets/Game/Core/README.md) | AOT 核心机制 | 无 Unity 依赖；模块、流程、实体、存储、更新 |
+| [Runtime](Assets/Game/Runtime/README.md) | AOT Unity 适配 | GameRuntime 组装资源、场景、实体、UI、音频 |
+| [Bootstrap](Assets/Game/Bootstrap/README.md) | 冷启动宿主 | 通过共享契约调用热更入口，不静态依赖业务程序集 |
+| [HotUpdate](Assets/Game/HotUpdate/README.md) | 热更业务接入 | Demo 仅是参考实现，业务可替换 |
+| [Editor](Assets/Game/Editor/README.md) | 内容构建与独立发布 | 仅 Editor 编译，不属于运行时模块 |
+| Assets/Game/Content、HotScenes | 验证用资源源文件 | 预制体、材质、音频、版本化场景；按逻辑地址访问 |
+| Assets/Game/Scenes | 启动场景 | 只有 Boot 进入 Player；历史空场景不参与构建 |
+| Assets/Resources | 启动配置 | game-config.json：公钥、平台、客户端与日志/更新配置 |
+| Assets/StreamingAssets | 生成的签名包 | Git 忽略；Prepare/Build 生成 |
+| Assets/HybridCLR | 生成引用与桥接相关文件 | 使用 HybridCLR 工具生成，不手写业务 |
+| [Packages](Packages/README.md) | 第三方依赖 | 保留许可证，和自研框架分开维护 |
+| [ProjectSettings](ProjectSettings/README.md) | Unity 工程配置 | 版本、平台、场景列表与 HybridCLR 配置 |
+| [Tools](Tools/README.md) | 自动化 | 构建、发布、验证、打包与离线镜像同步 |
+| [Tests](Tests/README.md) | 核心回归 | .NET 直接编译核心源码与部分纯 C# 接入样例 |
+| [TestResults](TestResults/README.md) | 验收证据 | 说明验证版本与边界，不作为源码导航 |
+| Builds、Library、Temp、Logs、LocalOnly | 本机产物 | Player、缓存、冻结基线、备份、镜像和密钥，不上传 Git |
 
-```text
-Boot / Bootstrap
-  → 校验/安装更新 → HybridCLR 元数据 + DLL
-  → new GameRuntime（仅组装框架服务）
-  → new GameEntry → RegisterModules（注册 DemoServices）
-  → ModuleHost 启动 → GameEntry.StartAsync
-  → DemoController → ProcedureManager → Lobby / Battle / Result
-  → 流程 scope：先登记场景，再登记 UI/音频/EntityOwner
-  → 离开：取消并等待任务 → 逆序回收实体/UI/音频 → 卸载场景 → 下一流程
-```
+## 核心功能定位
 
-ModuleHost 不轮询模块。DemoController 仅 Tick 当前已就绪流程，流程再更新自己的 EntityOwner。EntityCacheDriver 和 AudioDriver 维护各自服务，不承担全局业务更新。
+| 功能 | 核心入口 | Unity 适配 |
+|---|---|---|
+| 生命周期 | Core/Lifecycle.cs、GameEntryModule.cs | Runtime/GameRuntime.cs |
+| FSM 与流程 | Core/Fsm.cs、Procedure.cs | 由业务帧驱动调用 Tick |
+| 异步所有权 | Core/StateScope.cs | 各服务句柄与业务作用域 |
+| 实体、挂载、缓存 | Core/Entities.cs、EntityHierarchy.cs、EntityCache.cs | Runtime/EntityService.cs |
+| 资源地址与依赖 | Core/ResourceCatalog.cs | Runtime/ResourceService.cs |
+| 场景 | 流程作用域 | Runtime/SceneService.cs |
+| UI / 音频 | 作用域与资源租约 | Runtime/UiForms.cs、AudioService.cs |
+| 日志、存储、事件 | Core/GameLog.cs、Persistence.cs、Lifecycle.cs | Runtime/UnityServices.cs 提供 JSON 等适配 |
+| 更新、下载、磁盘预算 | Core/Updates.cs、Networking.cs、UpdateCache.cs | Bootstrap、Runtime/PlatformDiskSpace.cs |
+| 发布兼容检查 | Core/ReleasePublishing.cs | Editor/Publishing/ReleasePublisher.cs |
 
-## 修改任务应落在哪里
+Runtime/UnityServices.cs 也保留旧 GameObjectPool 辅助，当前实体入口统一使用 EntityService。
 
-- 新玩法/新流程：Demo/Procedures 或新业务目录；通过构造注入取得服务，不改 Bootstrap。
-- 新角色/怪物：业务 EntityLogic + 预制体，通过 EntityOwner.ShowAsync 创建；不直接 Destroy 受管实例。
-- 新窗口：业务 UiFormLogic，通过 UiService 打开；任务、订阅跟随窗口 Scope。
-- 新框架能力：Core 写不依赖 Unity 的逻辑，Runtime 适配 Unity，在 GameRuntime 中显式组装；业务模块在 GameEntry.RegisterModules 注册。
-- 资源和热更发布：先看 WORLD.md / EXPANSION.md，再改内容构建配置；不手工修改已签名清单或冻结基线。
+## 业务接入目录
 
-保持作用域退出时取消并等待任务，不用 async void 业务任务；父子实体同 owner；场景卸载完成才归还租约；资源包不能在 Destroy 尚未完成时卸载。框架要求 Unity 主线程调用，不提供任意线程安全保证。
+[HotUpdate/Demo](Assets/Game/HotUpdate/Demo/README.md) 仅演示框架接口组合，不规定玩法：
 
-目录移动保留 .meta GUID、命名空间、程序集名、入口全名和资源地址。新路径不要求新增 asmdef。历史报告仍可能指向旧路径，按本文件查找。离线构建只编辑根源码，Tools/Sync-GameSource.ps1 会镜像同步并移除旧路径残留。
+- Entry：入口实现、业务模块注册与帧驱动。
+- Procedures：流程编排与作用域所有权。
+- Entities：实体自身逻辑。
+- UI：窗口逻辑与展示适配。
+- Services：业务服务、数据模型与外部协议适配。
+- Validation：串联验证与退出探针。
 
-## 拉取源码后运行
+IDemoValidation 是已有自动验收接缝；验证代码仍位于业务程序集内。Editor/Publishing 当前复用 Editor/Demo 的资源构建方法，新项目需替换内容配置。
 
-Git 仓库是源码版本，不包含已编译 Player、签名包、私钥和本机冻结基线。Unity 中先执行 `Game Framework / 1 Prepare Demo`，生成本机示例包后打开 Boot 运行。完整 IL2CPP 热更验收须执行 BuildHybrid；新的本机签名密钥对应新的公钥，不能直接沿用其他发行者的冻结发布基线。
+## 修改与阅读规则
 
-```powershell
-dotnet run --project Tests/Framework.Tests.csproj
-./Tools/Run-Unity.ps1 -Action Prepare
-./Tools/Run-Unity.ps1 -Action BuildHybrid
-./Tools/Test-Demo.ps1 -Backend HybridCLR
-./Tools/Test-Publish.ps1
-```
+通用机制在 Core，Unity API 在 Runtime，业务在 HotUpdate。框架服务在 GameRuntime 组装，业务服务在 IGameEntry.RegisterModules 注册。模块职责与完整运行时序见 [ARCHITECTURE](ARCHITECTURE.md)。
 
-`-Offline` 仅用于本机 Unity Package Manager 异常环境，正常安装不需要。目录整理本身不等于重新验收旧 Player；旧交付 ZIP 和历史 19 次启动报告仍对应上一轮完整构建。
+只编辑根工程；LocalOnly/OfflineProject 由工具同步。移动资产保留 .meta GUID，更改程序集/入口全名需同步发布契约。历史报告可能仍使用旧路径，以本索引为准。签名私钥、已编译客户端与测试运行目录不进入 Git。

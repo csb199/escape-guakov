@@ -12,11 +12,11 @@ using UnityEngine.Scripting;
 namespace Game.HotUpdate
 {
     /// <summary>
-    /// Energy Collector 示例的热更新入口，不是通用框架服务容器。
-    /// RegisterModules 注册 DemoServices；StartAsync 通过 DemoController 组装大厅/战斗/结算。
-    /// Procedures 组织玩法，Entities 放实体行为，UI 放窗口，Services 放数据与排行榜，
-    /// Validation 放自动验收。DemoController.Update 只驱动当前流程，不遍历所有模块。
-    /// 更换游戏时替换此处业务组装，保留 IGameEntry 契约和作用域清理规则。
+    /// IGameEntry 的参考实现，展示框架的热更业务接入边界。
+    /// RegisterModules 注册业务模块；StartAsync 组装流程；StopAsync 取消并等待业务退出。
+    /// Entry 管入口，Procedures 管流程，Entities 管实体，UI 管窗口，Services 管业务服务，
+    /// Validation 管验收。帧驱动只更新当前流程，资源和任务随作用域释放。
+    /// 接入项目替换业务组装，保留 IGameEntry 契约和作用域清理规则。
     /// 类型全名 Game.HotUpdate.GameEntry 与程序集 Game.HotUpdate 被发布清单引用，不能随意改名。
     /// </summary>
     [Preserve]
