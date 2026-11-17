@@ -32,7 +32,7 @@ namespace Game.Editor
             PlayerSettings.companyName = "FrameworkLab"; PlayerSettings.productName = "EnergyCollector";
             PlayerSettings.bundleVersion = "1.0.0"; PlayerSettings.defaultScreenWidth = 1280; PlayerSettings.defaultScreenHeight = 720;
             PlayerSettings.fullScreenMode = FullScreenMode.Windowed; PlayerSettings.runInBackground = true;
-            PlayerSettings.SetApiCompatibilityLevel(BuildTargetGroup.Standalone, ApiCompatibilityLevel.NET_Standard);
+            PlayerSettings.SetApiCompatibilityLevel(NamedBuildTarget.Standalone, ApiCompatibilityLevel.NET_Standard);
             EditorUserBuildSettings.development = false;
             ConfigureHybrid();
             if (!File.Exists("LocalOnly/demo-signing-key.xml"))
@@ -209,34 +209,44 @@ namespace Game.Editor
         [MenuItem("Game Framework/2 Build Windows Demo (Mono validation only)")]
         public static void BuildMono()
         {
+            var previousSubtarget = EditorUserBuildSettings.standaloneBuildSubtarget;
+            EditorUserBuildSettings.standaloneBuildSubtarget = StandaloneBuildSubtarget.Player;
             HybridCLR.Settings.HybridCLRSettings.instance.enable = false; HybridCLR.Settings.HybridCLRSettings.Save();
-            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, ScriptingImplementation.Mono2x);
+            PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone, ScriptingImplementation.Mono2x);
             try { Prepare(); Build("Builds/Mono/EnergyCollector.exe"); }
-            finally { HybridCLR.Settings.HybridCLRSettings.instance.enable = true; HybridCLR.Settings.HybridCLRSettings.Save(); }
+            finally { HybridCLR.Settings.HybridCLRSettings.instance.enable = true; HybridCLR.Settings.HybridCLRSettings.Save(); EditorUserBuildSettings.standaloneBuildSubtarget = previousSubtarget; }
         }
         [MenuItem("Game Framework/3 Build Windows HybridCLR (IL2CPP)")]
         public static void BuildHybrid()
         {
-            HybridCLR.Settings.HybridCLRSettings.instance.enable = true; HybridCLR.Settings.HybridCLRSettings.Save();
-            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Standalone, ScriptingImplementation.IL2CPP);
-            Prepare(); ConfigureHybrid();
-            var installer = new HybridCLR.Installer.InstallerController();
-            if (!installer.HasInstalledHybridCLR()) installer.InstallDefaultHybridCLR();
-            HybridCLR.Commands.PrebuildCommand.GenerateAll();
-            PreparePackages(true);
-            Build("Builds/HybridCLR/EnergyCollector.exe");
-            ReleasePublisher.ExportBaseline();
+            var previousSubtarget = EditorUserBuildSettings.standaloneBuildSubtarget;
+            EditorUserBuildSettings.standaloneBuildSubtarget = StandaloneBuildSubtarget.Player;
+            try
+            {
+                HybridCLR.Settings.HybridCLRSettings.instance.enable = true; HybridCLR.Settings.HybridCLRSettings.Save();
+                PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone, ScriptingImplementation.IL2CPP);
+                Prepare(); ConfigureHybrid();
+                var installer = new HybridCLR.Installer.InstallerController();
+                if (!installer.HasInstalledHybridCLR()) installer.InstallDefaultHybridCLR();
+                HybridCLR.Commands.PrebuildCommand.GenerateAll();
+                PreparePackages(true);
+                Build("Builds/HybridCLR/EnergyCollector.exe");
+                if (!File.Exists("Builds/HybridCLR/GameAssembly.dll")) throw new BuildFailedException("HybridCLR build did not produce a native IL2CPP GameAssembly.dll");
+                ReleasePublisher.ExportBaseline();
+            }
+            finally { EditorUserBuildSettings.standaloneBuildSubtarget = previousSubtarget; }
         }
         static void Build(string output)
         {
             Directory.CreateDirectory(Path.GetDirectoryName(output));
-            var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes = new[] { Scenes[0] }, locationPathName = output, target = Target, options = BuildOptions.None });
+            var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes = new[] { Scenes[0] }, locationPathName = output, target = Target, subtarget = (int)StandaloneBuildSubtarget.Player, options = BuildOptions.None });
             if (report.summary.result != BuildResult.Succeeded) throw new BuildFailedException("Player build failed: " + report.summary.result);
             Debug.Log("DEMO_BUILD_SUCCEEDED " + Path.GetFullPath(output));
         }
         public static void PlaySmoke()
         {
-            EditorSceneManager.OpenScene(Scenes[0]); EditorApplication.isPlaying = true;
+            EditorSceneManager.playModeStartScene = AssetDatabase.LoadAssetAtPath<SceneAsset>(Scenes[0]);
+            EditorSceneManager.OpenScene(Scenes[0]); EditorApplication.delayCall += () => EditorApplication.isPlaying = true;
         }
     }
     // Exclude the business DLL from the baseline Mono player as well, so Assembly.Load really supplies it.
@@ -246,3 +256,7 @@ namespace Game.Editor
         public string[] OnFilterAssemblies(BuildOptions buildOptions, string[] assemblies) => assemblies.Where(p => Path.GetFileName(p) != "Game.HotUpdate.dll").ToArray();
     }
 }
+
+
+
+

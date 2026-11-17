@@ -1,0 +1,131 @@
+{
+  "source": "Source Texture2D m_ColorSpace and native raw payload",
+  "textures": [
+    {
+      "name": "c_PapashaSSR01_slg_cloth1_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0010_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_cloth2_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0014_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0015_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0017_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Papasha_slg_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0021_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0022_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0023_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "A_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0024_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Papasha_slg_eyeblend_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0028_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Papasha_slg_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0031_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Papasha_slg_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0036_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0037_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Papasha_slg_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0038_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_plush_dt",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0042_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_plush_nt",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0043_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PapashaSSR01_slg_plush_bt",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PapashaSSR01/Assets/0044_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

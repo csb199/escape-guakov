@@ -1,0 +1,196 @@
+{
+  "character": "NemesisGnosisSSR01",
+  "sourceBundle": "cab-d7276bbfbc976d290924657254a80649.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.27000001072883606,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 1.2699999809265137,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.05000000074505806,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.4099999964237213,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M",
+      "event": 1030,
+      "followBone": "",
+      "center": {
+        "x": -0.05999999865889549,
+        "y": 0.05999999865889549,
+        "z": 0.0
+      },
+      "radius": 0.09000000357627869,
+      "height": 0.3700000047683716,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.09000000357627869,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.019999999552965164,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/Nemesis_Lf_armor_Ctrl13_Jnt_skin",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": -0.20000000298023224,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05999999865889549,
+      "height": 0.4000000059604645,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 107510401,
+      "event": 104,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "165,230",
+      "vertical": "",
+      "zoom": "0.5,1"
+    },
+    {
+      "id": 107510201,
+      "event": 102,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107510202,
+      "event": 102,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107510203,
+      "event": 102,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107510301,
+      "event": 103,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107520101,
+      "event": 201,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 1,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107520102,
+      "event": 201,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 1,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107520103,
+      "event": 201,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Behave_Stretch",
+      "weight": 1,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107520104,
+      "event": 201,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Camera_Aroud",
+      "weight": 2,
+      "horizontal": "165,230",
+      "vertical": "",
+      "zoom": "0.5,1"
+    },
+    {
+      "id": 107520105,
+      "event": 201,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.001"
+    },
+    {
+      "id": 107510601,
+      "event": 106,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-25,50",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 107510101,
+      "event": 101,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 107510102,
+      "event": 101,
+      "clip": "c_NemesisGnosisSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.001"
+    }
+  ]
+}

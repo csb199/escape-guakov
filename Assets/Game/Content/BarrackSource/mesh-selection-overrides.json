@@ -1,0 +1,248 @@
+{
+  "selections": [
+    {
+      "character": "VectorSSR01",
+      "renderer": "c_VectorSSR01_slg_face_lod0",
+      "meshCab": "cab-66f0b7ca3106c3ab8b4de7c3a9da8e68",
+      "meshPathID": "3266565006849153761",
+      "assetKey": "b6641cfde32b6084ea6bf0c3b81bd154",
+      "sourceTreeSHA256": "936e093fd5894329e12d9ae38c04dddfd02cf3166944ad9686f00d01024cdd2b",
+      "resourceIdentity": "unresolved",
+      "selectionBasis": "captured static mesh match; equivalent for the ten inspected parsed barrack clips",
+      "captureSHA256": "534eb4123569ba0211ffdecedfadf918c67aa7510d818c162da55690dea6f234",
+      "captureEvent": 2204,
+      "evidenceReport": "TestResults/barrack-vector-import-2026-11-13/mesh-version-verification.json",
+      "scope": "Only the inspected default-outfit barrack clips. Eyes_kuqi differs across surviving payload classes and remains zero in those clips. No unique CAB claim.",
+      "inspectedClips": [
+        "c_VectorSSR01_BarrackEntrance_Normal",
+        "c_VectorSSR01_BarrackIdle",
+        "c_VectorSSR01_Barracksp_Behave_InspectExclusive",
+        "c_VectorSSR01_Barracksp_Behave_Stretch",
+        "c_VectorSSR01_Barracksp_Camera_Aroud",
+        "c_VectorSSR01_Barracksp_Camera_Look",
+        "c_VectorSSR01_Barracksp_Touch_Gun",
+        "c_VectorSSR01_Barracksp_Touch_Head",
+        "c_VectorSSR01_Barracksp_Touch_Pocket",
+        "c_VectorSSR01_ToIdle"
+      ]
+    },
+    {
+      "character": "MishtySSR01",
+      "renderer": "c_MishtySSR01_slg_face_lod0",
+      "meshCab": "cab-03f8200366c796107d96fa147a368a1c",
+      "meshPathID": "1134321353518352825",
+      "assetKey": "7b4d9af1a9c6afa4d8b79dcc66799ee5",
+      "sourceTreeSHA256": "1da30785100a8195fef20c57e16f682596e9b6410af35d17dc016e4226168765",
+      "resourceIdentity": "unresolved",
+      "selectionBasis": "scoped_zero_expression_equivalent",
+      "evidenceReport": "TestResults/barrack-equivalence-import-2026-11-13/mesh-equivalence-audit.json",
+      "scope": "Parsed source payload comparison; not a GPU capture identity match. Only listed clips may be exposed. Source data retained unchanged.",
+      "inspectedClips": [
+        "c_MishtySSR01_ToIdle",
+        "c_MishtySSR01_BarrackIdle",
+        "c_MishtySSR01_BarrackIdle_TurnLeft",
+        "c_MishtySSR01_BarrackEntrance_Normal",
+        "c_MishtySSR01_BarrackIdle_TurnRight"
+      ],
+      "excludedClips": [
+        "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+        "c_MishtySSR01_Barracksp_Behave_Stretch",
+        "c_MishtySSR01_Barracksp_Camera_Aroud",
+        "c_MishtySSR01_Barracksp_Camera_Look",
+        "c_MishtySSR01_Barracksp_Touch_Gun",
+        "c_MishtySSR01_Barracksp_Touch_Head",
+        "c_MishtySSR01_Barracksp_Touch_Pocket"
+      ],
+      "decodedAttributeDifferences": [],
+      "numericTolerance": 0,
+      "clipChecks": [
+        {
+          "clip": "c_MishtySSR01_ToIdle",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnLeft",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackEntrance_Normal",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnRight",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_ToIdle",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Pocket",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Gun",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Camera_Look",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnLeft",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Head",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackEntrance_Normal",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnRight",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_ToIdle",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Pocket",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Gun",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Camera_Look",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Camera_Aroud",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnLeft",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackEntrance_Normal",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnRight",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        }
+      ]
+    },
+    {
+      "character": "RobellaSSR01",
+      "renderer": "c_RobellaSSR01_slg_face_lod0",
+      "meshCab": "cab-6054ad7de8fd882854e5abe625f8e901",
+      "meshPathID": "-8237493880192076451",
+      "assetKey": "25aece887d784314e9b1e047caae0ade",
+      "sourceTreeSHA256": "334db9e7dd7b016506395e21144d61d6e146f47c435f8c887633f4a2e02073d9",
+      "resourceIdentity": "unresolved",
+      "selectionBasis": "numeric_payload_equivalent",
+      "evidenceReport": "TestResults/barrack-equivalence-import-2026-11-13/mesh-equivalence-audit.json",
+      "scope": "Parsed source payload comparison; not a GPU capture identity match. Only listed clips may be exposed. Source data retained unchanged.",
+      "inspectedClips": [
+        "c_RobellaSSR01_ToIdle",
+        "c_RobellaSSR01_Barracksp_Camera_Aroud",
+        "c_RobellaSSR01_BarrackIdle",
+        "c_RobellaSSR01_Barracksp_Touch_Pocket",
+        "c_RobellaSSR01_BarrackIdle_TurnLeft",
+        "c_RobellaSSR01_Barracksp_Touch_Head",
+        "c_RobellaSSR01_Barracksp_Camera_Look",
+        "c_RobellaSSR01_Barracksp_Behave_Stretch",
+        "c_RobellaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_RobellaSSR01_BarrackEntrance_Normal",
+        "c_RobellaSSR01_Barracksp_Touch_Gun",
+        "c_RobellaSSR01_BarrackIdle_TurnRight"
+      ],
+      "excludedClips": [],
+      "decodedAttributeDifferences": [
+        {
+          "m_Vertices": 0.0,
+          "m_Normals": 0.0,
+          "m_Tangents": 0.0,
+          "m_Colors": 0.0,
+          "m_UV0": 0.0,
+          "m_UV1": 0.0,
+          "m_BoneIndices": 0.0,
+          "m_IndexBuffer": 0.0
+        },
+        {
+          "m_Vertices": 5.587935447692871e-09,
+          "m_Normals": 0.0,
+          "m_Tangents": 5.960464477539063e-08,
+          "m_Colors": 1.7881393432617188e-07,
+          "m_UV0": 0.0,
+          "m_UV1": 0.0,
+          "m_BoneIndices": 0.0,
+          "m_IndexBuffer": 0.0
+        }
+      ],
+      "numericTolerance": 5e-07,
+      "clipChecks": []
+    }
+  ]
+}

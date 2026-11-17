@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "SakuraSSR01",
+    "renderers": 8,
+    "meshes": 8,
+    "boneReferences": 297,
+    "materials": 19,
+    "textures": 36,
+    "shaders": 5,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_SakuraSSR01_BarrackIdle_TurnRight",
+        "c_SakuraSSR01_Barracksp_Touch_Gun",
+        "c_SakuraSSR01_Barracksp_Behave_InspectExclusive",
+        "c_SakuraSSR01_ToIdle",
+        "c_SakuraSSR01_BarrackIdle",
+        "c_SakuraSSR01_BarrackIdle_TurnLeft",
+        "c_SakuraSSR01_BarrackEntrance_Normal",
+        "c_SakuraSSR01_Barracksp_Camera_Look",
+        "c_SakuraSSR01_Barracksp_Behave_Stretch",
+        "c_SakuraSSR01_Barracksp_Touch_Pocket",
+        "c_SakuraSSR01_Barracksp_Touch_Head",
+        "c_SakuraSSR01_Barracksp_Camera_Aroud"
+    ]
+}

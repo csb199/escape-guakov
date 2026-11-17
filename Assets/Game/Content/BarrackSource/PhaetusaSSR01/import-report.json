@@ -1,0 +1,28 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "PhaetusaSSR01",
+    "renderers": 10,
+    "meshes": 10,
+    "boneReferences": 265,
+    "materials": 14,
+    "textures": 32,
+    "shaders": 4,
+    "clips": 14,
+    "avatar": true,
+    "actions": [
+        "c_PhaetusaSSR01_BarrackEntrance_Normal",
+        "c_PhaetusaSSR01_Barracksp_Behave_Stretch",
+        "c_PhaetusaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_PhaetusaSSR01_BarrackIdle_TurnRight",
+        "c_PhaetusaSSR01_Barracksp_Touch_Gun",
+        "c_PhaetusaSSR01_BarrackIdle_TurnLeft",
+        "c_PhaetusaSSR01_Barracksp_Touch_Head",
+        "c_PhaetusaSSR01_Barracksp_Camera_Aroud",
+        "c_PhaetusaSSR01_Barracksp_Camera_Aroud_Camera",
+        "c_PhaetusaSSR01_Barracksp_Camera_Look",
+        "c_PhaetusaSSR01_Barracksp_Touch_Pocket",
+        "c_PhaetusaSSR01_ToIdle",
+        "c_PhaetusaSSR01_Barracksp_Camera_Look_Camera",
+        "c_PhaetusaSSR01_BarrackIdle"
+    ]
+}

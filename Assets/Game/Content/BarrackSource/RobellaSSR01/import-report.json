@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "RobellaSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 277,
+    "materials": 14,
+    "textures": 24,
+    "shaders": 5,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_RobellaSSR01_BarrackEntrance_Normal",
+        "c_RobellaSSR01_ToIdle",
+        "c_RobellaSSR01_Barracksp_Camera_Look",
+        "c_RobellaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_RobellaSSR01_Barracksp_Touch_Head",
+        "c_RobellaSSR01_BarrackIdle_TurnLeft",
+        "c_RobellaSSR01_Barracksp_Touch_Pocket",
+        "c_RobellaSSR01_BarrackIdle_TurnRight",
+        "c_RobellaSSR01_BarrackIdle",
+        "c_RobellaSSR01_Barracksp_Behave_Stretch",
+        "c_RobellaSSR01_Barracksp_Camera_Aroud",
+        "c_RobellaSSR01_Barracksp_Touch_Gun"
+    ]
+}

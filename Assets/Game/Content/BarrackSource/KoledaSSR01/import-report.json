@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "KoledaSSR01",
+    "renderers": 10,
+    "meshes": 10,
+    "boneReferences": 327,
+    "materials": 17,
+    "textures": 40,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_KoledaSSR01_Barracksp_Camera_Aroud",
+        "c_KoledaSSR01_BarrackEntrance_Normal",
+        "c_KoledaSSR01_Barracksp_Camera_Look",
+        "c_KoledaSSR01_ToIdle",
+        "c_KoledaSSR01_BarrackIdle",
+        "c_KoledaSSR01_Barracksp_Behave_Stretch",
+        "c_KoledaSSR01_Barracksp_Touch_Gun",
+        "c_KoledaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_KoledaSSR01_Barracksp_Touch_Pocket",
+        "c_KoledaSSR01_Barracksp_Touch_Head"
+    ]
+}

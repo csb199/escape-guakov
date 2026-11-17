@@ -1,0 +1,10 @@
+{
+  "name": "Game.Barrack.Editor",
+  "rootNamespace": "Game.Editor.Barrack",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "references": [
+    "Game.HotUpdate", "Game.Core", "Game.Contracts"
+  ]
+}

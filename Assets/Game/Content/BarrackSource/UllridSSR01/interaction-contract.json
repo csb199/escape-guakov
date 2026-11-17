@@ -1,0 +1,210 @@
+{
+  "character": "UllridSSR01",
+  "sourceBundle": "deee59297d7e33c33b485f9cac165fcd.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Hip_L",
+      "event": 1510,
+      "followBone": "",
+      "center": {
+        "x": 0.23999999463558197,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05999999865889549,
+      "height": 0.5299999713897705,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_R",
+      "event": 1511,
+      "followBone": "",
+      "center": {
+        "x": -0.23999999463558197,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05999999865889549,
+      "height": 0.5299999713897705,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.07000000029802322,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.0,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Hair_Jnt1/Hair_Jnt2",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": -0.1899999976158142,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05999999865889549,
+      "height": 0.5699999928474426,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/Elbow_R",
+      "event": 1070,
+      "followBone": "",
+      "center": {
+        "x": -0.10999999940395355,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05000000074505806,
+      "height": 0.3499999940395355,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": 0.0,
+        "y": -0.3499999940395355,
+        "z": 0.0
+      },
+      "radius": 0.03999999910593033,
+      "height": 0.8999999761581421,
+      "direction": 1,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 103710201,
+      "event": 102,
+      "clip": "c_UllridSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103710202,
+      "event": 102,
+      "clip": "c_UllridSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 1037151001,
+      "event": 1510,
+      "clip": "c_UllridSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103710701,
+      "event": 107,
+      "clip": "c_UllridSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-50,50",
+      "vertical": "",
+      "zoom": "0.45,1"
+    },
+    {
+      "id": 103710101,
+      "event": 101,
+      "clip": "c_UllridSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 103710102,
+      "event": 101,
+      "clip": "c_UllridSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 103720101,
+      "event": 201,
+      "clip": "c_UllridSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 103720102,
+      "event": 201,
+      "clip": "c_UllridSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103720103,
+      "event": 201,
+      "clip": "c_UllridSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103720104,
+      "event": 201,
+      "clip": "c_UllridSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103720105,
+      "event": 201,
+      "clip": "c_UllridSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 1037151101,
+      "event": 1511,
+      "clip": "c_UllridSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103710601,
+      "event": 106,
+      "clip": "c_UllridSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.3,1"
+    }
+  ]
+}

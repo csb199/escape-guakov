@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "DestroyerSSR01",
+    "renderers": 12,
+    "meshes": 12,
+    "boneReferences": 305,
+    "materials": 15,
+    "textures": 30,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_DestroyerSSR01_Barracksp_Camera_Look",
+        "c_DestroyerSSR01_Barracksp_Behave_Stretch",
+        "c_DestroyerSSR01_Barracksp_Touch_Head",
+        "c_DestroyerSSR01_BarrackIdle",
+        "c_DestroyerSSR01_Barracksp_Behave_InspectExclusive",
+        "c_DestroyerSSR01_Barracksp_Touch_Gun",
+        "c_DestroyerSSR01_Barracksp_Camera_Aroud",
+        "c_DestroyerSSR01_Barracksp_Touch_Pocket",
+        "c_DestroyerSSR01_BarrackEntrance_Normal",
+        "c_DestroyerSSR01_ToIdle"
+    ]
+}

@@ -1,6 +1,6 @@
-param([ValidateSet('HybridCLR','Mono')][string]$Backend = 'HybridCLR')
+param([ValidateSet('HybridCLR','Mono')][string]$Backend = 'HybridCLR', [string]$ProjectRoot)
 $ErrorActionPreference = 'Stop'
-$project = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+$project = if ($ProjectRoot) { [IO.Path]::GetFullPath($ProjectRoot) } else { [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..')) }
 $player = Join-Path $project "Builds/$Backend/EnergyCollector.exe"
 if (!(Test-Path $player)) { throw "Build $Backend first." }
 $results = Join-Path $project ('TestResults/' + $Backend + '-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))

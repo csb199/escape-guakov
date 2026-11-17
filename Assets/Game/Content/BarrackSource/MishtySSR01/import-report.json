@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "MishtySSR01",
+    "renderers": 4,
+    "meshes": 4,
+    "boneReferences": 204,
+    "materials": 11,
+    "textures": 17,
+    "shaders": 4,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_MishtySSR01_ToIdle",
+        "c_MishtySSR01_BarrackIdle_TurnRight",
+        "c_MishtySSR01_BarrackEntrance_Normal",
+        "c_MishtySSR01_Barracksp_Camera_Aroud",
+        "c_MishtySSR01_BarrackIdle",
+        "c_MishtySSR01_Barracksp_Camera_Look",
+        "c_MishtySSR01_Barracksp_Touch_Gun",
+        "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+        "c_MishtySSR01_Barracksp_Touch_Pocket",
+        "c_MishtySSR01_Barracksp_Behave_Stretch",
+        "c_MishtySSR01_BarrackIdle_TurnLeft",
+        "c_MishtySSR01_Barracksp_Touch_Head"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "VoymastinaSSR01",
+    "renderers": 7,
+    "meshes": 7,
+    "boneReferences": 164,
+    "materials": 12,
+    "textures": 24,
+    "shaders": 4,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_VoymastinaSSR01_Barracksp_Camera_Aroud",
+        "c_VoymastinaSSR01_Barracksp_Touch_Head",
+        "c_VoymastinaSSR01_BarrackEntrance_Normal",
+        "c_VoymastinaSSR01_Barracksp_Touch_Gun",
+        "c_VoymastinaSSR01_Barracksp_Behave_Stretch",
+        "c_VoymastinaSSR01_Barracksp_Touch_Pocket",
+        "c_VoymastinaSSR01_ToIdle",
+        "c_VoymastinaSSR01_BarrackIdle_TurnLeft",
+        "c_VoymastinaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_VoymastinaSSR01_BarrackIdle_TurnRight",
+        "c_VoymastinaSSR01_Barracksp_Camera_Look",
+        "c_VoymastinaSSR01_BarrackIdle"
+    ]
+}

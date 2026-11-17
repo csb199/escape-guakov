@@ -1,0 +1,185 @@
+{
+  "source": "Exact source Texture2D m_ColorSpace and native raw texture payload",
+  "textures": [
+    {
+      "name": "c_FaelynnSSR01_slg_body_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "body_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "body_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth1_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0010_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0011_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0012_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0015_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0018_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0021_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0022_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0023_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0024_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "Faelynn_cloth4_alpha",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0029_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth2_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0032_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0033_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0034_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Faelynn_slg_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0038_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0039_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "C_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0040_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Faelynn_slg_eyeblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0044_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Faelynn_slg_R_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0047_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Faelynn_slg_L_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0051_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Faelynn_slg_saihong_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0054_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "flat",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0055_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0056_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth3_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0059_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth3_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0060_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_FaelynnSSR01_slg_cloth3_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/FaelynnSSR01/Assets/0061_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

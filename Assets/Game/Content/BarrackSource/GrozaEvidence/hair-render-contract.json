@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "capture": "barrack-direct-valid.rdc",
+  "frame": 8378,
+  "scope": "GrozaSR01 main camera, D3D11; native material stencil references remain material-owned",
+  "order": ["GFCharForward", "GFHairShadow", "eyeblend_add/GFCharForward", "eyeblend_multiply/GFCharForward", "GFCharFaceShadow", "GFCharHairTransE", "GFOutline"],
+  "eyeCompositeQueues": [2458, 2459],
+  "hostQueueScheduling": {
+    "hair": 2440,
+    "fringe": 2441,
+    "provenance": "Host scheduling slots enforce captured relative draw order (eye, hair, fringe, eye composite); these are not claimed to be captured original runtime queue values."
+  },
+  "passes": [
+    {
+      "event": 2324,
+      "pass": "GFHairShadow",
+      "vertexSha256": "153541b2f6fd9e27b0f653d35e346d7c8abf0732c1e7a97dab90c18efb103c0a",
+      "pixelSha256": "8dc2c81abf29c14b28acdb4fab3069096787238c56c4ba8ae028dfb6f6632798",
+      "cull": "Back",
+      "depthCompareD3D11": "GreaterEqual",
+      "depthWrite": false,
+      "colorWriteMask": 0,
+      "stencilCompare": "Equal",
+      "stencilReference": 200,
+      "stencilPass": "IncrementSaturate",
+      "stencilReadMask": 255,
+      "stencilWriteMask": 255
+    },
+    {
+      "event": 2407,
+      "pass": "GFCharFaceShadow",
+      "vertexSha256": "04a2d5b430d561c938d67bad8bc94479bf19db2a691651711cac971d3162c945",
+      "pixelSha256": "1683699378b7e4210fc6374d5f7cd1fd1ab2d94d09ff3d27ff1489cf36df91a4",
+      "cull": "Back",
+      "depthCompareD3D11": "GreaterEqual",
+      "depthWrite": false,
+      "colorWriteMask": 7,
+      "blend": "One, Zero",
+      "stencilCompare": "Equal",
+      "stencilReference": 201,
+      "stencilPass": "DecrementSaturate",
+      "stencilReadMask": 255,
+      "stencilWriteMask": 255,
+      "keywordAmbiguity": "Pixel bytecode is identical with or without _GF_CHAR_LOD1; its presence cannot be inferred from this hash."
+    },
+    {
+      "event": 2430,
+      "pass": "GFCharHairTransE",
+      "vertexSha256": "6cc3d926b5f1a5f8af332ff7327bb856b4687b9c9801af363b230f880b5d1387",
+      "pixelSha256": "078d015edda7ba5c8b27b0e0522a9c6eea6fd294959ff53610153466fc7907f0",
+      "cull": "Back",
+      "depthCompareD3D11": "GreaterEqual",
+      "depthWrite": true,
+      "colorWriteMask": 7,
+      "blend": "SrcAlpha, OneMinusSrcAlpha",
+      "stencilCompare": "Equal",
+      "stencilReference": 204,
+      "stencilPass": "Keep",
+      "stencilReadMask": 255,
+      "stencilWriteMask": 255
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "LiushihSSR01",
+    "renderers": 10,
+    "meshes": 10,
+    "boneReferences": 368,
+    "materials": 17,
+    "textures": 38,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_LiushihSSR01_Barracksp_Camera_Aroud",
+        "c_LiushihSSR01_BarrackEntrance_Normal",
+        "c_LiushihSSR01_Barracksp_Touch_Gun",
+        "c_LiushihSSR01_Barracksp_Touch_Pocket",
+        "c_LiushihSSR01_ToIdle",
+        "c_LiushihSSR01_Barracksp_Behave_Stretch",
+        "c_LiushihSSR01_Barracksp_Behave_InspectExclusive",
+        "c_LiushihSSR01_BarrackIdle",
+        "c_LiushihSSR01_Barracksp_Touch_Head",
+        "c_LiushihSSR01_Barracksp_Camera_Look"
+    ]
+}

@@ -1,0 +1,173 @@
+{
+  "character": "MishtySSR01",
+  "resourceIdentity": "unresolved",
+  "selections": [
+    {
+      "character": "MishtySSR01",
+      "renderer": "c_MishtySSR01_slg_face_lod0",
+      "meshCab": "cab-03f8200366c796107d96fa147a368a1c",
+      "meshPathID": "1134321353518352825",
+      "assetKey": "7b4d9af1a9c6afa4d8b79dcc66799ee5",
+      "sourceTreeSHA256": "1da30785100a8195fef20c57e16f682596e9b6410af35d17dc016e4226168765",
+      "resourceIdentity": "unresolved",
+      "selectionBasis": "scoped_zero_expression_equivalent",
+      "evidenceReport": "TestResults/barrack-equivalence-import-2026-11-13/mesh-equivalence-audit.json",
+      "scope": "Parsed source payload comparison; not a GPU capture identity match. Only listed clips may be exposed. Source data retained unchanged.",
+      "inspectedClips": [
+        "c_MishtySSR01_ToIdle",
+        "c_MishtySSR01_BarrackIdle",
+        "c_MishtySSR01_BarrackIdle_TurnLeft",
+        "c_MishtySSR01_BarrackEntrance_Normal",
+        "c_MishtySSR01_BarrackIdle_TurnRight"
+      ],
+      "excludedClips": [
+        "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+        "c_MishtySSR01_Barracksp_Behave_Stretch",
+        "c_MishtySSR01_Barracksp_Camera_Aroud",
+        "c_MishtySSR01_Barracksp_Camera_Look",
+        "c_MishtySSR01_Barracksp_Touch_Gun",
+        "c_MishtySSR01_Barracksp_Touch_Head",
+        "c_MishtySSR01_Barracksp_Touch_Pocket"
+      ],
+      "decodedAttributeDifferences": [],
+      "numericTolerance": 0,
+      "clipChecks": [
+        {
+          "clip": "c_MishtySSR01_ToIdle",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnLeft",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackEntrance_Normal",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnRight",
+          "expression": "Mouth_Happy",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_ToIdle",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Pocket",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Gun",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Camera_Look",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnLeft",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Head",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackEntrance_Normal",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnRight",
+          "expression": "Mouth_Anger",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_ToIdle",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Pocket",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Touch_Gun",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Camera_Look",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_Barracksp_Camera_Aroud",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnLeft",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackEntrance_Normal",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        },
+        {
+          "clip": "c_MishtySSR01_BarrackIdle_TurnRight",
+          "expression": "Mouth_Sleep",
+          "allWeightsZero": true
+        }
+      ]
+    }
+  ]
+}

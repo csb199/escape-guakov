@@ -8,6 +8,10 @@
 /LocalOnly/
 /Tests/bin/
 /Tests/obj/
+/Experiments/**/bin/
+/Experiments/**/obj/
+/Experiments/**/bin/
+/Experiments/**/obj/
 *.csproj.user
 /.vs/
 /.idea/

@@ -1,0 +1,187 @@
+{
+  "character": "PapashaSSR01",
+  "sourceBundle": "bf0d7579844c256bf21bc7c45fff20c3.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Spine1_M/Mid_armor_Ctrl3_Jnt_skin",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.05000000074505806,
+        "z": 0.0
+      },
+      "radius": 0.09000000357627869,
+      "height": 0.25,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.20999999344348907,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.18000000715255737,
+      "height": 0.20000000298023224,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M",
+      "event": 1030,
+      "followBone": "",
+      "center": {
+        "x": -0.03999999910593033,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.09000000357627869,
+      "height": 0.23000000417232513,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.07999999821186066,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.0,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/Elbow_R/ElbowPart1_R/Wrist_R",
+      "event": 1020,
+      "followBone": "",
+      "center": {
+        "x": -0.11999999731779099,
+        "y": 0.029999999329447746,
+        "z": 0.0
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.6499999761581421,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 104010401,
+      "event": 104,
+      "clip": "c_PapashaSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-50,50",
+      "vertical": "",
+      "zoom": "0.45,1"
+    },
+    {
+      "id": 104010101,
+      "event": 101,
+      "clip": "c_PapashaSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 104010102,
+      "event": 101,
+      "clip": "c_PapashaSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 104010201,
+      "event": 102,
+      "clip": "c_PapashaSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 104010202,
+      "event": 102,
+      "clip": "c_PapashaSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 104020101,
+      "event": 201,
+      "clip": "c_PapashaSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 104020102,
+      "event": 201,
+      "clip": "c_PapashaSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 104020103,
+      "event": 201,
+      "clip": "c_PapashaSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 104020104,
+      "event": 201,
+      "clip": "c_PapashaSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 104020105,
+      "event": 201,
+      "clip": "c_PapashaSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 104010301,
+      "event": 103,
+      "clip": "c_PapashaSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 104010602,
+      "event": 106,
+      "clip": "c_PapashaSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.4,1"
+    }
+  ]
+}

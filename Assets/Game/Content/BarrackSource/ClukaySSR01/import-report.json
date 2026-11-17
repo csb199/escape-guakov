@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "ClukaySSR01",
+    "renderers": 7,
+    "meshes": 7,
+    "boneReferences": 192,
+    "materials": 14,
+    "textures": 28,
+    "shaders": 4,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_ClukaySSR01_Barracksp_Behave_InspectExclusive",
+        "c_ClukaySSR01_Barracksp_Touch_Gun",
+        "c_ClukaySSR01_BarrackIdle",
+        "c_ClukaySSR01_ToIdle",
+        "c_ClukaySSR01_Barracksp_Touch_Pocket",
+        "c_ClukaySSR01_BarrackEntrance_Normal",
+        "c_ClukaySSR01_Barracksp_Behave_Stretch",
+        "c_ClukaySSR01_Barracksp_Touch_Head",
+        "c_ClukaySSR01_Barracksp_Camera_Aroud",
+        "c_ClukaySSR01_Barracksp_Camera_Look"
+    ]
+}

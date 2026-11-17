@@ -1,0 +1,24 @@
+{
+  "status": "source-assets-with-native-shader-library-rendering-unverified",
+  "model": "CeciliaSSR01",
+  "renderers": 11,
+  "meshes": 11,
+  "boneReferences": 390,
+  "materials": 15,
+  "textures": 37,
+  "shaders": 4,
+  "clips": 10,
+  "avatar": true,
+  "actions": [
+    "c_CeciliaSSR01_Barracksp_Touch_Pocket",
+    "c_CeciliaSSR01_Barracksp_Camera_Aroud",
+    "c_CeciliaSSR01_Barracksp_Touch_Gun",
+    "c_CeciliaSSR01_Barracksp_Behave_InspectExclusive",
+    "c_CeciliaSSR01_Barracksp_Behave_Stretch",
+    "c_CeciliaSSR01_Barracksp_Camera_Look",
+    "c_CeciliaSSR01_BarrackIdle",
+    "c_CeciliaSSR01_Barracksp_Touch_Head",
+    "c_CeciliaSSR01_BarrackEntrance_Normal",
+    "c_CeciliaSSR01_ToIdle"
+  ]
+}

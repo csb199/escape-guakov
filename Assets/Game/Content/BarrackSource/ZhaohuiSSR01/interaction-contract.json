@@ -1,0 +1,164 @@
+{
+  "character": "ZhaohuiSSR01",
+  "sourceBundle": "b50fb2891c2c85400368acd3b670d83c.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Spine1_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.029999999329447746,
+        "y": -0.09000000357627869,
+        "z": 0.0
+      },
+      "radius": 0.14000000059604645,
+      "height": 0.4000000059604645,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.07000000029802322,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.0,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/knife_1_Jnt_skin",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": -0.029999999329447746,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.03999999910593033,
+      "height": 0.33000001311302185,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.11999999731779099,
+        "y": 0.029999999329447746,
+        "z": 0.0
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.7099999785423279,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 105010601,
+      "event": 106,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105010602,
+      "event": 106,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.5,1"
+    },
+    {
+      "id": 105020101,
+      "event": 201,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 105020102,
+      "event": 201,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105020103,
+      "event": 201,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 105020104,
+      "event": 201,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105010201,
+      "event": 102,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105010202,
+      "event": 102,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105010301,
+      "event": 103,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 105010101,
+      "event": 101,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 105010102,
+      "event": 101,
+      "clip": "c_ZhaohuiSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    }
+  ]
+}

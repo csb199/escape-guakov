@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "BalthildeSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 189,
+    "materials": 12,
+    "textures": 22,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_BalthildeSSR01_BarrackEntrance_Normal",
+        "c_BalthildeSSR01_Barracksp_Touch_Head",
+        "c_BalthildeSSR01_Barracksp_Touch_Gun",
+        "c_BalthildeSSR01_Barracksp_Camera_Look",
+        "c_BalthildeSSR01_ToIdle",
+        "c_BalthildeSSR01_BarrackIdle",
+        "c_BalthildeSSR01_Barracksp_Touch_Pocket",
+        "c_BalthildeSSR01_Barracksp_Behave_InspectExclusive",
+        "c_BalthildeSSR01_Barracksp_Camera_Aroud",
+        "c_BalthildeSSR01_Barracksp_Behave_Stretch"
+    ]
+}

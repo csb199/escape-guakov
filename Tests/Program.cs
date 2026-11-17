@@ -81,6 +81,7 @@ sealed class Suite
         Directory.CreateDirectory(root);
         await LifecycleRegression.Run(Check);
         await EntryRegression.Run(Check);
+        BarrackRegression.Run(Check);
         var history = new List<string>(); var modules = new ModuleHost(log);
         modules.Add(new TestModule("ui", new[] { "content" }, history)); modules.Add(new TestModule("content", Array.Empty<string>(), history));
         await modules.StartAsync(default); await modules.StopAsync(default);

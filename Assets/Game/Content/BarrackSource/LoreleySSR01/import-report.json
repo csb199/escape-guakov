@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "LoreleySSR01",
+    "renderers": 7,
+    "meshes": 7,
+    "boneReferences": 317,
+    "materials": 17,
+    "textures": 33,
+    "shaders": 5,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_LoreleySSR01_Barracksp_Touch_Pocket",
+        "c_LoreleySSR01_Barracksp_Camera_Aroud",
+        "c_LoreleySSR01_Barracksp_Touch_Head",
+        "c_LoreleySSR01_Barracksp_Touch_Gun",
+        "c_LoreleySSR01_BarrackIdle_TurnRight",
+        "c_LoreleySSR01_ToIdle",
+        "c_LoreleySSR01_Barracksp_Behave_InspectExclusive",
+        "c_LoreleySSR01_Barracksp_Behave_Stretch",
+        "c_LoreleySSR01_BarrackEntrance_Normal",
+        "c_LoreleySSR01_BarrackIdle_TurnLeft",
+        "c_LoreleySSR01_Barracksp_Camera_Look",
+        "c_LoreleySSR01_BarrackIdle"
+    ]
+}

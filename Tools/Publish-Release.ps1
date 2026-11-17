@@ -6,11 +6,12 @@ param(
     [Parameter(Mandatory=$true)][string]$SigningKey,
     [string]$PreviousManifest,
     [ValidateSet('','DEMO_V2','DEMO_V3')][string]$DemoVariant = '',
-    [string]$Unity = 'C:\Program Files\Unity 2022.3.62f1\Editor\Unity.exe',
-    [switch]$Offline
+    [string]$Unity = 'E:\Unity\6000.3.27f2\Editor\Unity.exe',
+    [switch]$Offline,
+    [string]$ProjectRoot
 )
 $ErrorActionPreference = 'Stop'
-$project = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+$project = if ($ProjectRoot) { [IO.Path]::GetFullPath($ProjectRoot) } else { [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..')) }
 $working = $project
 $extra = ''
 if ($Offline) {
@@ -30,3 +31,4 @@ $process.WaitForExit()
 if ($process.ExitCode -ne 0) { throw 'Release publication failed; see Publish.log' }
 if (!(Test-Path "$outputPath/manifest.json")) { throw 'Published manifest missing' }
 Write-Output "Published $Version for frozen baseline: $outputPath"
+

@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "MitylSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 395,
+    "materials": 16,
+    "textures": 33,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_MitylSSR01_Barracksp_Touch_Gun",
+        "c_MitylSSR01_Barracksp_Camera_Look",
+        "c_MitylSSR01_Barracksp_Camera_Aroud",
+        "c_MitylSSR01_Barracksp_Behave_Stretch",
+        "c_MitylSSR01_BarrackIdle",
+        "c_MitylSSR01_BarrackEntrance_Normal",
+        "c_MitylSSR01_Barracksp_Touch_Head",
+        "c_MitylSSR01_ToIdle",
+        "c_MitylSSR01_Barracksp_Touch_Pocket",
+        "c_MitylSSR01_Barracksp_Behave_InspectExclusive"
+    ]
+}

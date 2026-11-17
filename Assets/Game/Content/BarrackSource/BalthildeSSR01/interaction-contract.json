@@ -1,0 +1,210 @@
+{
+  "character": "BalthildeSSR01",
+  "sourceBundle": "8f54b4e1cc3ee5b46f1f7228d108745e.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Hip_L",
+      "event": 1510,
+      "followBone": "",
+      "center": {
+        "x": 0.1599999964237213,
+        "y": 0.0,
+        "z": -0.019999999552965164
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.4000000059604645,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_R",
+      "event": 1511,
+      "followBone": "",
+      "center": {
+        "x": -0.1599999964237213,
+        "y": 0.0,
+        "z": 0.019999999552965164
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.4000000059604645,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.03999999910593033,
+        "y": -0.009999999776482582,
+        "z": 0.0
+      },
+      "radius": 0.10999999940395355,
+      "height": 0.28999999165534973,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M",
+      "event": 1030,
+      "followBone": "",
+      "center": {
+        "x": -0.05000000074505806,
+        "y": 0.019999999552965164,
+        "z": 0.0
+      },
+      "radius": 0.10999999940395355,
+      "height": 0.23000000417232513,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.07999999821186066,
+        "z": 0.0
+      },
+      "radius": 0.10000000149011612,
+      "height": 0.10000000149011612,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.18000000715255737,
+        "y": 0.03999999910593033,
+        "z": 0.0
+      },
+      "radius": 0.09000000357627869,
+      "height": 0.8100000023841858,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 106120101,
+      "event": 201,
+      "clip": "c_BalthildeSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 106120102,
+      "event": 201,
+      "clip": "c_BalthildeSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-220,-140",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 106120103,
+      "event": 201,
+      "clip": "c_BalthildeSSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106120104,
+      "event": 201,
+      "clip": "c_BalthildeSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106120105,
+      "event": 201,
+      "clip": "c_BalthildeSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106110301,
+      "event": 103,
+      "clip": "c_BalthildeSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106110201,
+      "event": 102,
+      "clip": "c_BalthildeSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106110202,
+      "event": 102,
+      "clip": "c_BalthildeSSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106110401,
+      "event": 104,
+      "clip": "c_BalthildeSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-220,-140",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 1061151101,
+      "event": 1511,
+      "clip": "c_BalthildeSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-60,40",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 106110101,
+      "event": 101,
+      "clip": "c_BalthildeSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 106110102,
+      "event": 101,
+      "clip": "c_BalthildeSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 1061151001,
+      "event": 1510,
+      "clip": "c_BalthildeSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-60,40",
+      "vertical": "",
+      "zoom": "0.4,1"
+    }
+  ]
+}

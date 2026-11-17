@@ -1,0 +1,4183 @@
+{
+  "schemaVersion": 1,
+  "sourceBundle": "404a5060b818a55aa64205d887fe0a69",
+  "sourceAsset": "ceb4cb77c8c084745bce0ad4ca9e4822",
+  "sourceName": "BarrackCharacterCanvas",
+  "status": "source-layout-only",
+  "nodes": [
+    {
+      "id": 0,
+      "parent": -1,
+      "name": "BarrackCharacterCanvas",
+      "active": true,
+      "sourcePathId": "3408653023466128522",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "name": "UICharacterCamera",
+      "active": true,
+      "sourcePathId": "3408653023716527989",
+      "position": {
+        "x": -0.3857387900352478,
+        "y": 0.3361014127731323,
+        "z": 4.78181791305542
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.9976961612701416,
+        "z": 0.0,
+        "w": -0.06784110516309738
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": true,
+      "hasLight": false,
+      "camera": {
+        "fieldOfView": 40.0,
+        "near": 0.10000000149011612,
+        "far": 5000.0,
+        "orthographic": false,
+        "orthographicSize": 5.0,
+        "background": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "clearFlags": 1,
+        "hdr": true
+      }
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "name": "_Light_Weapon",
+      "active": false,
+      "sourcePathId": "3408653022614145548",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 3,
+      "parent": 2,
+      "name": "_PostEffect",
+      "active": true,
+      "sourcePathId": "3408653024238348494",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 4,
+      "parent": 2,
+      "name": "Reflection Probe",
+      "active": true,
+      "sourcePathId": "3408653025793425558",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 5,
+      "parent": 2,
+      "name": "Directional Light",
+      "active": true,
+      "sourcePathId": "3408653023505860308",
+      "position": {
+        "x": 1.4600000381469727,
+        "y": 0.8299999833106995,
+        "z": 1.4900000095367432
+      },
+      "rotation": {
+        "x": -0.2951809763908386,
+        "y": 0.18197786808013916,
+        "z": -0.057377394288778305,
+        "w": -0.9361944794654846
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": true,
+      "light": {
+        "type": 1,
+        "color": {
+          "r": 1.0,
+          "g": 0.945263147354126,
+          "b": 0.8700000047683716,
+          "a": 1.0
+        },
+        "intensity": 1.2999999523162842,
+        "range": 10.0,
+        "spotAngle": 30.0,
+        "enabled": true
+      }
+    },
+    {
+      "id": 6,
+      "parent": 2,
+      "name": "Directional Light (1)",
+      "active": true,
+      "sourcePathId": "3408653022583394533",
+      "position": {
+        "x": 1.4600000381469727,
+        "y": 0.8299999833106995,
+        "z": 1.4900000095367432
+      },
+      "rotation": {
+        "x": -0.08292043209075928,
+        "y": 0.7813982367515564,
+        "z": 0.106343574821949,
+        "w": 0.6092881560325623
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": true,
+      "light": {
+        "type": 1,
+        "color": {
+          "r": 0.7607843279838562,
+          "g": 0.9411764740943909,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "intensity": 1.5,
+        "range": 10.0,
+        "spotAngle": 30.0,
+        "enabled": true
+      }
+    },
+    {
+      "id": 7,
+      "parent": 2,
+      "name": "Point Light",
+      "active": true,
+      "sourcePathId": "3408653024080780298",
+      "position": {
+        "x": -0.20600000023841858,
+        "y": 0.8259999752044678,
+        "z": 2.062000036239624
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": true,
+      "light": {
+        "type": 2,
+        "color": {
+          "r": 0.6510000228881836,
+          "g": 0.818399965763092,
+          "b": 0.9300000071525574,
+          "a": 1.0
+        },
+        "intensity": 0.800000011920929,
+        "range": 10.0,
+        "spotAngle": 30.0,
+        "enabled": true
+      }
+    },
+    {
+      "id": 8,
+      "parent": 1,
+      "name": "3DCanvas",
+      "active": true,
+      "sourcePathId": "3408653022967814677",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 2048.0,
+        "y": 1024.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 9,
+      "parent": 8,
+      "name": "Panel",
+      "active": true,
+      "sourcePathId": "3408653021959116409",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 10,
+      "parent": 8,
+      "name": "WeaponShowDetailPanel",
+      "active": false,
+      "sourcePathId": "3408653023554687836",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 11,
+      "parent": 10,
+      "name": "ImgBgDeco1",
+      "active": true,
+      "sourcePathId": "3408653025154752780",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.949999988079071,
+        "y": 0.949999988079071,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 12,
+      "parent": 10,
+      "name": "ImgBgDeco2",
+      "active": true,
+      "sourcePathId": "3408653023107138052",
+      "position": {
+        "x": 33.0,
+        "y": 38.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.949999988079071,
+        "y": 0.949999988079071,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 33.0,
+        "y": 38.0
+      },
+      "sizeDelta": {
+        "x": -1412.0,
+        "y": -508.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 13,
+      "parent": 10,
+      "name": "Par",
+      "active": true,
+      "sourcePathId": "3408653025758764056",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 14,
+      "parent": 13,
+      "name": "Particle System",
+      "active": true,
+      "sourcePathId": "3408653025238584339",
+      "position": {
+        "x": 0.0,
+        "y": -412.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 50.0,
+        "y": 50.0,
+        "z": 50.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 100.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 15,
+      "parent": 13,
+      "name": "Particle System (1)",
+      "active": true,
+      "sourcePathId": "3408653025192960759",
+      "position": {
+        "x": 0.0,
+        "y": -401.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 50.0,
+        "y": 50.0,
+        "z": 50.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 111.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 16,
+      "parent": 13,
+      "name": "Particle System (2)",
+      "active": true,
+      "sourcePathId": "3408653022230274657",
+      "position": {
+        "x": 12.699999809265137,
+        "y": -512.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 100.0,
+        "y": 50.0,
+        "z": 50.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 12.699999809265137,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 17,
+      "parent": 10,
+      "name": "GrpLockIcon",
+      "active": true,
+      "sourcePathId": "3408653021567631010",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 18,
+      "parent": 17,
+      "name": "Weapon_Lock_Mesh",
+      "active": true,
+      "sourcePathId": "3408653021654267053",
+      "position": {
+        "x": 0.004999999888241291,
+        "y": -0.06769999861717224,
+        "z": -2599.60009765625
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -1.0,
+        "z": -0.0,
+        "w": 0.0
+      },
+      "scale": {
+        "x": 0.08799999952316284,
+        "y": 0.08799999952316284,
+        "z": 0.08799999952316284
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.004999999888241291,
+        "y": -0.06769999861717224
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 19,
+      "parent": 8,
+      "name": "PanelPowerUp",
+      "active": false,
+      "sourcePathId": "3408653022565814963",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 20,
+      "parent": 8,
+      "name": "UI_ChrWeapon_Bg_Ring",
+      "active": false,
+      "sourcePathId": "3408653022313432516",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 21,
+      "parent": 8,
+      "name": "GrpBg",
+      "active": false,
+      "sourcePathId": "3408653022951456768",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.2799999713897705,
+        "y": 1.2799999713897705,
+        "z": 1.2799999713897705
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 22,
+      "parent": 21,
+      "name": "ImgFrame",
+      "active": true,
+      "sourcePathId": "3408653023356702053",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 456.0,
+        "y": 456.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 23,
+      "parent": 21,
+      "name": "ImgFrame3",
+      "active": true,
+      "sourcePathId": "3408653024620062846",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 500.0,
+        "y": 500.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 24,
+      "parent": 21,
+      "name": "GrpRound",
+      "active": true,
+      "sourcePathId": "3408653021602019719",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 550.0,
+        "y": 550.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 25,
+      "parent": 24,
+      "name": "ImgPic1",
+      "active": true,
+      "sourcePathId": "3408653022897443249",
+      "position": {
+        "x": 125.0,
+        "y": 216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": 0.5,
+        "w": 0.8660253882408142
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -150.0,
+        "y": -59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 26,
+      "parent": 24,
+      "name": "ImgPic2",
+      "active": true,
+      "sourcePathId": "3408653023903722189",
+      "position": {
+        "x": -125.0,
+        "y": 216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.866025447845459,
+        "w": 0.4999999403953552
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 150.0,
+        "y": -59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 27,
+      "parent": 24,
+      "name": "ImgPic3",
+      "active": true,
+      "sourcePathId": "3408653022003486554",
+      "position": {
+        "x": 249.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -26.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 28,
+      "parent": 24,
+      "name": "ImgPic4",
+      "active": true,
+      "sourcePathId": "3408653025308080424",
+      "position": {
+        "x": -249.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 26.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 29,
+      "parent": 24,
+      "name": "ImgPic5",
+      "active": true,
+      "sourcePathId": "3408653024004026338",
+      "position": {
+        "x": 125.0,
+        "y": -216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.5,
+        "w": -0.8660253882408142
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": -150.0,
+        "y": 59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 30,
+      "parent": 24,
+      "name": "ImgPic6",
+      "active": true,
+      "sourcePathId": "3408653024046366052",
+      "position": {
+        "x": -125.0,
+        "y": -216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.866025447845459,
+        "w": 0.4999999403953552
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 150.0,
+        "y": 59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 31,
+      "parent": 21,
+      "name": "ImgRoundDot",
+      "active": true,
+      "sourcePathId": "3408653021865597350",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 578.0,
+        "y": 578.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 32,
+      "parent": 21,
+      "name": "ImgRound2",
+      "active": true,
+      "sourcePathId": "3408653024496141128",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 648.0,
+        "y": 648.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 33,
+      "parent": 8,
+      "name": "WeaponPowerUp",
+      "active": false,
+      "sourcePathId": "3408653024956976333",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.2799999713897705,
+        "y": 1.2799999713897705,
+        "z": 1.2799999713897705
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 34,
+      "parent": 33,
+      "name": "Root",
+      "active": true,
+      "sourcePathId": "3408653025030721257",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 35,
+      "parent": 34,
+      "name": "GrpBg",
+      "active": true,
+      "sourcePathId": "3408653023351433225",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 36,
+      "parent": 35,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_01",
+      "active": true,
+      "sourcePathId": "3408653022979041016",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 37,
+      "parent": 35,
+      "name": "ImgSquare",
+      "active": true,
+      "sourcePathId": "3408653022987203971",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 350.0,
+        "y": 406.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 38,
+      "parent": 35,
+      "name": "ImgFrame",
+      "active": true,
+      "sourcePathId": "3408653023943410121",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 456.0,
+        "y": 456.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 39,
+      "parent": 35,
+      "name": "ImgFrame3",
+      "active": true,
+      "sourcePathId": "3408653023897619836",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 500.0,
+        "y": 500.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 40,
+      "parent": 35,
+      "name": "GrpRound",
+      "active": true,
+      "sourcePathId": "3408653025692368516",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 550.0,
+        "y": 550.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 41,
+      "parent": 40,
+      "name": "ImgPic1",
+      "active": true,
+      "sourcePathId": "3408653022671715084",
+      "position": {
+        "x": 125.0,
+        "y": 216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": 0.5,
+        "w": 0.8660253882408142
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -150.0,
+        "y": -59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 42,
+      "parent": 41,
+      "name": "ImgPicLv_01",
+      "active": true,
+      "sourcePathId": "3408653023128103109",
+      "position": {
+        "x": -1.52587890625e-05,
+        "y": 1.52587890625e-05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -27.000015258789062,
+        "y": -126.99998474121094
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 43,
+      "parent": 41,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_03",
+      "active": true,
+      "sourcePathId": "3408653024887839873",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 44,
+      "parent": 40,
+      "name": "ImgPic2",
+      "active": true,
+      "sourcePathId": "3408653025732020465",
+      "position": {
+        "x": 249.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -26.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 45,
+      "parent": 44,
+      "name": "ImgPicLv_02",
+      "active": false,
+      "sourcePathId": "3408653024218771248",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -27.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 46,
+      "parent": 44,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_03",
+      "active": true,
+      "sourcePathId": "3408653022143167294",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 47,
+      "parent": 40,
+      "name": "ImgPic3",
+      "active": true,
+      "sourcePathId": "3408653025390671568",
+      "position": {
+        "x": 125.0,
+        "y": -216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.5,
+        "w": -0.8660253882408142
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": -150.0,
+        "y": 59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 48,
+      "parent": 47,
+      "name": "ImgPicLv_03",
+      "active": false,
+      "sourcePathId": "3408653022201016677",
+      "position": {
+        "x": -1.52587890625e-05,
+        "y": -1.52587890625e-05,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": -27.000015258789062,
+        "y": 126.99998474121094
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 49,
+      "parent": 47,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_03",
+      "active": true,
+      "sourcePathId": "3408653022098772369",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 50,
+      "parent": 40,
+      "name": "ImgPic4",
+      "active": true,
+      "sourcePathId": "3408653022323698755",
+      "position": {
+        "x": -125.0,
+        "y": -216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.866025447845459,
+        "w": 0.4999999403953552
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 150.0,
+        "y": 59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 51,
+      "parent": 50,
+      "name": "ImgPicLv_04",
+      "active": false,
+      "sourcePathId": "3408653022603570437",
+      "position": {
+        "x": -1.52587890625e-05,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 26.999984741210938,
+        "y": 127.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 52,
+      "parent": 50,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_03",
+      "active": true,
+      "sourcePathId": "3408653022555780006",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 53,
+      "parent": 40,
+      "name": "ImgPic5",
+      "active": true,
+      "sourcePathId": "3408653022331253127",
+      "position": {
+        "x": -249.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0,
+        "w": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 26.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 54,
+      "parent": 53,
+      "name": "ImgPicLv_05",
+      "active": false,
+      "sourcePathId": "3408653025656520748",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 27.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 55,
+      "parent": 53,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_03",
+      "active": true,
+      "sourcePathId": "3408653024272243129",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 56,
+      "parent": 40,
+      "name": "ImgPic6",
+      "active": true,
+      "sourcePathId": "3408653023571884416",
+      "position": {
+        "x": -125.0,
+        "y": 216.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.866025447845459,
+        "w": 0.4999999403953552
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 150.0,
+        "y": -59.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 57,
+      "parent": 56,
+      "name": "ImgPicLv_06",
+      "active": false,
+      "sourcePathId": "3408653024431458755",
+      "position": {
+        "x": -1.52587890625e-05,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 26.999984741210938,
+        "y": -127.0
+      },
+      "sizeDelta": {
+        "x": 54.0,
+        "y": 254.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 58,
+      "parent": 56,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_03",
+      "active": true,
+      "sourcePathId": "3408653022285265588",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 59,
+      "parent": 40,
+      "name": "BG_Glow_01",
+      "active": true,
+      "sourcePathId": "3408653023786351287",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 3.200000047683716,
+        "y": 3.200000047683716,
+        "z": 3.200000047683716
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 60,
+      "parent": 35,
+      "name": "ImgRoundDot",
+      "active": true,
+      "sourcePathId": "3408653022917815353",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 578.0,
+        "y": 578.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 61,
+      "parent": 35,
+      "name": "ImgRound2",
+      "active": true,
+      "sourcePathId": "3408653025415814503",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 648.0,
+        "y": 648.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 62,
+      "parent": 35,
+      "name": "UI_ChrWeaponPowerUpDialogV3_Fx_02",
+      "active": true,
+      "sourcePathId": "3408653025341537198",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 63,
+      "parent": 35,
+      "name": "ImgLine1",
+      "active": true,
+      "sourcePathId": "3408653022063326156",
+      "position": {
+        "x": 801.7000122070312,
+        "y": 463.70001220703125,
+        "z": -3.0999999046325684
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.2588191032409668,
+        "w": 0.9659258127212524
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": -862.2999877929688,
+        "y": -408.29998779296875
+      },
+      "sizeDelta": {
+        "x": 676.0,
+        "y": 2.0
+      },
+      "pivot": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": 64,
+      "parent": 35,
+      "name": "ImgLine2",
+      "active": true,
+      "sourcePathId": "3408653024190746108",
+      "position": {
+        "x": -860.2000122070312,
+        "y": -453.8999938964844,
+        "z": 214.3000030517578
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.2588191032409668,
+        "w": 0.9659258127212524
+      },
+      "scale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 803.7999877929688,
+        "y": 418.1000061035156
+      },
+      "sizeDelta": {
+        "x": 676.0,
+        "y": 2.0
+      },
+      "pivot": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    {
+      "id": 65,
+      "parent": 35,
+      "name": "ImgLine3",
+      "active": true,
+      "sourcePathId": "3408653024978253780",
+      "position": {
+        "x": -870.7999877929688,
+        "y": 473.79998779296875,
+        "z": 245.39999389648438
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.2588191628456116,
+        "w": -0.9659258127212524
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 793.2000122070312,
+        "y": -398.20001220703125
+      },
+      "sizeDelta": {
+        "x": 676.0,
+        "y": 2.0
+      },
+      "pivot": {
+        "x": 0.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": 66,
+      "parent": 35,
+      "name": "ImgLine4",
+      "active": true,
+      "sourcePathId": "3408653021660989808",
+      "position": {
+        "x": 868.9000244140625,
+        "y": -472.6000061035156,
+        "z": -246.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.2588191628456116,
+        "w": -0.9659258127212524
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": -795.0999755859375,
+        "y": 399.3999938964844
+      },
+      "sizeDelta": {
+        "x": 676.0,
+        "y": 2.0
+      },
+      "pivot": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    {
+      "id": 67,
+      "parent": 8,
+      "name": "ChrWeaponPowerUp_Bglizi",
+      "active": false,
+      "sourcePathId": "3408653025517707542",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2600.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 68,
+      "parent": 67,
+      "name": "Particle_1",
+      "active": true,
+      "sourcePathId": "3408653025551840435",
+      "position": {
+        "x": 0.0,
+        "y": 402.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 50.0,
+        "y": 50.0,
+        "z": 50.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -0.0,
+        "y": 402.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 69,
+      "parent": 67,
+      "name": "Particle_2",
+      "active": true,
+      "sourcePathId": "3408653024367907789",
+      "position": {
+        "x": -1.0,
+        "y": 164.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 50.0,
+        "y": 50.0,
+        "z": 50.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -1.0,
+        "y": 164.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 70,
+      "parent": 0,
+      "name": "CharacterBG",
+      "active": true,
+      "sourcePathId": "3408653024847702697",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "pivot": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "id": 71,
+      "parent": 0,
+      "name": "ReflectionPlane",
+      "active": true,
+      "sourcePathId": "3408653024311802048",
+      "position": {
+        "x": 0.0,
+        "y": 0.001500000013038516,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 72,
+      "parent": 0,
+      "name": "Effect_BarrackPowerUp_Bg",
+      "active": false,
+      "sourcePathId": "3408653021556251825",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2505.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.013888888992369175,
+        "y": 0.013888888992369175,
+        "z": 0.013888888992369175
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "anchorMax": {
+        "x": 1.0,
+        "y": 1.0
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 1280.0,
+        "y": 720.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 73,
+      "parent": 72,
+      "name": "Effect_BarrackPowerUp_Bg_pc",
+      "active": true,
+      "sourcePathId": "3408653024385086334",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 74,
+      "parent": 73,
+      "name": "smoke (3)",
+      "active": true,
+      "sourcePathId": "3408653023243000652",
+      "position": {
+        "x": -8.0,
+        "y": -168.99998474121094,
+        "z": 429.9960632324219
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": 0.7167127132415771,
+        "z": -0.0,
+        "w": 0.6973685622215271
+      },
+      "scale": {
+        "x": 0.7146300673484802,
+        "y": 0.7146299481391907,
+        "z": 0.7146300673484802
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 75,
+      "parent": 73,
+      "name": "lizi",
+      "active": true,
+      "sourcePathId": "3408653024467590400",
+      "position": {
+        "x": -75.0,
+        "y": -247.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.7068716287612915,
+        "y": 0.018236765637993813,
+        "z": -0.018236760050058365,
+        "w": 0.7068716287612915
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -75.0,
+        "y": -247.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 76,
+      "parent": 72,
+      "name": "Effect_BarrackPowerUp_Bg_mobile",
+      "active": false,
+      "sourcePathId": "3408653025441050944",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 77,
+      "parent": 76,
+      "name": "lizi",
+      "active": true,
+      "sourcePathId": "3408653024602299030",
+      "position": {
+        "x": -73.0,
+        "y": -206.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.7068716287612915,
+        "y": 0.018236765637993813,
+        "z": -0.018236760050058365,
+        "w": 0.7068716287612915
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": true,
+      "hasCamera": false,
+      "hasLight": false,
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchoredPosition": {
+        "x": -73.0,
+        "y": -206.0
+      },
+      "sizeDelta": {
+        "x": 100.0,
+        "y": 100.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": 78,
+      "parent": 76,
+      "name": "smoke",
+      "active": true,
+      "sourcePathId": "3408653024988608063",
+      "position": {
+        "x": -8.0,
+        "y": -143.0,
+        "z": 412.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 79,
+      "parent": 0,
+      "name": "WeaponEffect",
+      "active": false,
+      "sourcePathId": "3408653025424051939",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 80,
+      "parent": 0,
+      "name": "VirtualCameraRoot",
+      "active": true,
+      "sourcePathId": "3408653024093965654",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 81,
+      "parent": 80,
+      "name": "BaseVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653022138621297",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 82,
+      "parent": 81,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653024234974620",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 83,
+      "parent": 80,
+      "name": "ShotVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653023272817187",
+      "position": {
+        "x": -0.3857387900352478,
+        "y": 0.3361014127731323,
+        "z": 4.78181791305542
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.9976961612701416,
+        "z": 0.0,
+        "w": -0.06784110516309738
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 84,
+      "parent": 83,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653022811312727",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 85,
+      "parent": 80,
+      "name": "WeaponVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653022438509869",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 86,
+      "parent": 85,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653022748717195",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 87,
+      "parent": 80,
+      "name": "WeaponToucherVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653025583273949",
+      "position": {
+        "x": -2.450000047683716,
+        "y": 1.940000057220459,
+        "z": 3.9000000953674316
+      },
+      "rotation": {
+        "x": 0.23021146655082703,
+        "y": -0.668582558631897,
+        "z": 0.23021146655082703,
+        "w": 0.668582558631897
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 88,
+      "parent": 87,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653021673711234",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 89,
+      "parent": 80,
+      "name": "CharacterNearVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653025130683132",
+      "position": {
+        "x": 0.0,
+        "y": 0.15970000624656677,
+        "z": 1.342039942741394
+      },
+      "rotation": {
+        "x": 0.008726557716727257,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.9999619722366333
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 90,
+      "parent": 89,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653025295345969",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 91,
+      "parent": 80,
+      "name": "StageUpVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653023002041082",
+      "position": {
+        "x": 1.2146270275115967,
+        "y": -0.17900000512599945,
+        "z": 5.581999778747559
+      },
+      "rotation": {
+        "x": 0.03403564170002937,
+        "y": 0.9340392351150513,
+        "z": 0.09259010851383209,
+        "w": -0.34327730536460876
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 92,
+      "parent": 91,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653023297609964",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 93,
+      "parent": 80,
+      "name": "LookAtVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653025394352420",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 94,
+      "parent": 93,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653024534085107",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 95,
+      "parent": 80,
+      "name": "InteractVirtualCamera",
+      "active": true,
+      "sourcePathId": "3408653024423466156",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 96,
+      "parent": 95,
+      "name": "Camera1",
+      "active": true,
+      "sourcePathId": "3408653023416585453",
+      "position": {
+        "x": -0.6619399785995483,
+        "y": 0.8022599816322327,
+        "z": -2.50888991355896
+      },
+      "rotation": {
+        "x": 0.01934007555246353,
+        "y": 0.1384805589914322,
+        "z": 0.0021800086833536625,
+        "w": 0.9901739358901978
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": true,
+      "hasLight": false,
+      "camera": {
+        "fieldOfView": 37.84928894042969,
+        "near": 0.10000000149011612,
+        "far": 1000.0,
+        "orthographic": false,
+        "orthographicSize": 5.0,
+        "background": {
+          "r": 0.1921568661928177,
+          "g": 0.3019607961177826,
+          "b": 0.4745098054409027,
+          "a": 0.0
+        },
+        "clearFlags": 1,
+        "hdr": true
+      }
+    },
+    {
+      "id": 97,
+      "parent": 96,
+      "name": "cm",
+      "active": true,
+      "sourcePathId": "3408653023518843053",
+      "position": {
+        "x": 0.4770563840866089,
+        "y": -0.8619831800460815,
+        "z": 2.162623882293701
+      },
+      "rotation": {
+        "x": -0.1574239730834961,
+        "y": 0.4712255597114563,
+        "z": -0.08589751273393631,
+        "w": 0.8635889291763306
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    },
+    {
+      "id": 98,
+      "parent": 0,
+      "name": "WeaponRotateRoot",
+      "active": true,
+      "sourcePathId": "3408653023432362003",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.0
+      },
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rect": false,
+      "hasCamera": false,
+      "hasLight": false
+    }
+  ],
+  "missingDependencies": [
+    "cab-00f260b204af3ec3efc80fb0ef2921e1",
+    "cab-033bd2a395934a64ed364857dc48aa50",
+    "cab-033c489b9528c1f1678ff80742018a1d",
+    "cab-07ac0af31ffb7289d2fbba81502826f9",
+    "cab-0850dad3be5c4eeec3313a105d7bdf99",
+    "cab-0aca4040569d03280c3a1655f91dcf32",
+    "cab-0bf960f9a9cc0c7caddfc0aeb8e9eef7",
+    "cab-0c541aee462172db395154d4ee6d8a89",
+    "cab-0de72ae8562b8a3a000d3ba36b1f9e2f",
+    "cab-0e4b9aa177efdf89156dfe2282f7af70",
+    "cab-0f30b77592f1152c42358f318122e210",
+    "cab-11d71a944ee22c533038bb10eeee4d67",
+    "cab-11f18d9ec063cc95c5b1131e9b258cc7",
+    "cab-148eb58f7b9b04cdf20e31a71e4d7a86",
+    "cab-15e9cb318b1053b0776290466afa5673",
+    "cab-19aa0b640fabfd6bc7abb639f7e9a1c7",
+    "cab-1a58415f2d439a58838493dd99ff79cf",
+    "cab-1f29ac71a8904977ae87a8e444527804",
+    "cab-2011c7784d55fa5f854261433997a733",
+    "cab-21116c2b95aa6ec54e4c285c07513470",
+    "cab-22333884800d7257a50738dbe0e35958",
+    "cab-243df0efa1c02624e32f4424afc6602e",
+    "cab-26f3c3bb99aac21daa0d0a25fed0cae9",
+    "cab-2ac5f32ba3b4f46a3966ebc68de14112",
+    "cab-2b4577311155697a33d334b0530669c3",
+    "cab-2c596355f3bc9bf4b8de5699127a29f4",
+    "cab-301657a819b0c4901572e57e8b4c1c15",
+    "cab-305534f196493279e2df1de7d1c8668a",
+    "cab-30bce13bf8ba1e21debc33cf4483c126",
+    "cab-32443c0ed365bf24269cb7d73bd93f37",
+    "cab-33061c556f5e68f6466ead335a35594f",
+    "cab-34518b754d88f8ee57ef7430ad58d464",
+    "cab-35513b8c7bf336345c141a04eedab19e",
+    "cab-37a8ccac0c40348b3562580a49f0e017",
+    "cab-37ae734aafa48f0e1e3a915c1a1dd510",
+    "cab-38ecec9e9e0ba81a65e24c8a44a24731",
+    "cab-3a1e21955ea1e4d2c9a3fdff2927596f",
+    "cab-3aaedbeb48705573ff2ef1c25dfb35e1",
+    "cab-3afaa83d722d14f9402d349c1d8d38ea",
+    "cab-3b5e27723b259eca352fd96660501345",
+    "cab-3ca4c8f0b5f7eb137c90963fe5f453d7",
+    "cab-3cad6e38d90dd2a3d3c6314ebdc296e4",
+    "cab-3d521b2ef149d955042c9d4befb1958f",
+    "cab-3f5a578d31dd18bb94e9e84a655d6075",
+    "cab-3f7b3983be586743b35e48cd048513b0",
+    "cab-3f9cf9b66161fc90861ae91875782439",
+    "cab-40e5c457dbbf2967a11e04f4cfdfcd67",
+    "cab-438642e5e1b1c7af10fc6b42d2992bd3",
+    "cab-46abdf66470a5d1e8335287e2c45fb1b",
+    "cab-4a2ddff871d3a8edc8e8a06e8e62a0d5",
+    "cab-4bc8403dac4b4f52e873bd473400fdb1",
+    "cab-4d43c9ed499436c35c903bb2178f6c68",
+    "cab-4e0207c1788d755307ab4504b5268339",
+    "cab-4e1c8754e3a3b181f4c4af85043dee5e",
+    "cab-4f3222ec78ded03e56b3ef6c56747f3d",
+    "cab-5113b7c014e56d6adecb965ee09b2843",
+    "cab-5280a082d705523fbc2ef168c36666bd",
+    "cab-5316806985d1c265f3f7aa8c4ca78bbe",
+    "cab-588726a98a3b61f61b52717e838286eb",
+    "cab-5a20e7cb56e06e61409f37c87bfa6abb",
+    "cab-5bc2d9930cf9ed7cc5a9a5968252c352",
+    "cab-5fcacf3cd3abb0e1029783a4a4875fef",
+    "cab-61d80f9ac68de42a3f78dcda2043e8e1",
+    "cab-62041faca1ffd261d6e618e4563883d4",
+    "cab-63ad59c72d7a68ddc65b6b995c62e870",
+    "cab-680fc8083079ef9e650f2130f780ee22",
+    "cab-6a373fafd20807652186d3d48cd4f34a",
+    "cab-6b5f646bbd2f62acee6f307f944707c1",
+    "cab-6d1a46f82e5f1179b5c5e977061a190d",
+    "cab-6ddcb0be17e59fac2ff26df78961754d",
+    "cab-700c6dc2b18a5fc7e681a474c6bff0a9",
+    "cab-70e25ccde83d81a2fc90cc0f0147a2f9",
+    "cab-7195f50aa5ebf8bb9f5d00fcea7d2538",
+    "cab-72cd2002520f033ff6ad463e8c246e7c",
+    "cab-72e13f80f6be6ad7a821385c4f1b8acd",
+    "cab-7453746e7beac11478a81c54240bda93",
+    "cab-7542d419730d360b7990985484e7c0df",
+    "cab-754d111b325571bd51fa07fe52ac47eb",
+    "cab-7682d6d0c4b3d64d2fefc94518cd5236",
+    "cab-7695e030a9206aadfbdcd4ed17e6cba5",
+    "cab-76d90fe65a407195db4117258461e1cd",
+    "cab-78f15b0d7b96b4d0420a02fa5b850ba6",
+    "cab-794d810cb44cce515d0ac16d1132002a",
+    "cab-7ad778e2ce926549917241ee7ca1baa3",
+    "cab-7d7954eb4816e09f0e209a7eb4645758",
+    "cab-7dac2af9426fbc413433af67ee651821",
+    "cab-7df5f657db2a610c4c5708c68a46a99a",
+    "cab-7eb9c8e53ff453b234365f79563a2677",
+    "cab-817af9bb7d5fcdb5a963962b4e1cb208",
+    "cab-822c4e1340a19d8e12a1430c40619701",
+    "cab-88321b302a2e5587fd2d570bf887543d",
+    "cab-8838ddf76f6ebf744f582d613148f164",
+    "cab-8aa9149593269eefa1b9aff75b7f3cdb",
+    "cab-8e123baeee27f294823ebda6096d910c",
+    "cab-8e972e2116e26d258ac89dd68b868b76",
+    "cab-8feb2571c898abc879e20e0756f3af73",
+    "cab-91030f87d5d128871060b6a83375fa82",
+    "cab-92a68706b24d0893cec4f4e2da1c1ad5",
+    "cab-92d2da5ef85a2a9b33fcbb7b832ae1be",
+    "cab-92d93742c896b3892b186a25571b4d36",
+    "cab-93d407f7a0927a5dd84606a4924eba4c",
+    "cab-947a2a7298e1e24724c01c82384b8b2e",
+    "cab-9579ee2d591bb13841a986eb56cc3c41",
+    "cab-98545b90de77a6f94ebe9cdf27374ffe",
+    "cab-9ad5c401503291c7598388361e09e1e0",
+    "cab-a0d38f31628f067e1d1871efcabdfb60",
+    "cab-a3a89807cff275abd9410844c473d125",
+    "cab-a5563e8c0faed30c90df20f854a6f89e",
+    "cab-a56d8fb53070225d9ee5c53c376f57c1",
+    "cab-a66c702c2d8bff8c4764a80d73591e1e",
+    "cab-a784f8d63bb668ce96a0a63d04120f6a",
+    "cab-a827f5920a0711d104ad7129882f3088",
+    "cab-a8df2132b2619cc82273b5564b0979cf",
+    "cab-a949ba2b8155597dd7c582f04eb56ff7",
+    "cab-aac187887f51fbc4557c507a5312e1ca",
+    "cab-aaff67963de0e68c2e34fd1ca8f18e95",
+    "cab-ab392dfdc08217ea6735c37539495d40",
+    "cab-abc0ad8b759a00e256b424823608ad30",
+    "cab-adbedc2f006926b24d2e78a71bcd7593",
+    "cab-b1eaad4a87844e65053a40039da6752f",
+    "cab-b379c34d453ff9681d2df8821b9700d2",
+    "cab-b3bb3c5b62322c6036547bd42aeb7527",
+    "cab-b3e1d561c97bcbabda1ea7b7d01f127c",
+    "cab-b4027847062307af7a9c9a37e673ac74",
+    "cab-b4c4bca16b475e7d0874e5dd5161f301",
+    "cab-b6950446e55f7ef1074e964f6687951f",
+    "cab-b87a79d6f2cbd852f2b771e1953d847d",
+    "cab-b8f0601db6562108c39addd99b996550",
+    "cab-bad9be2beece4a88bfb34562c8d2844d",
+    "cab-bb554913f4c2bcc42acaa0627b27f4f8",
+    "cab-bbca5213a60f583f7a4bd2db4571443e",
+    "cab-bd1e3cf64a078733b232d176a390bcd0",
+    "cab-c0acf8b8a9cc7536f42603b3696db450",
+    "cab-c297410c3e5006f58bcbe7a4603d3475",
+    "cab-c39af00f54009de7b591441e9a1898ec",
+    "cab-c43e114fbb1c6fe3f245361f568028bf",
+    "cab-c49d12e7b78d14d8342cdd6edf34758d",
+    "cab-c782b9b25f5aefc1ffaf6145eb60c54a",
+    "cab-c81d23bf6e15e58babe0345e6f117c9d",
+    "cab-c8237a6257ae38248ea10b14df595d6a",
+    "cab-cd7546361f1275cb2a9f7c5fc7df90b5",
+    "cab-cec1c9197837dcbbc130d8262ffaadb9",
+    "cab-cf4a79914872a2f7b63de17524436d39",
+    "cab-cfcfaad1fe3c7c4dc47233f1353eefed",
+    "cab-d2db0515a0baaeb62f9cab75111d642b",
+    "cab-d36cf6186ec8da12b670cb56cff2a6d7",
+    "cab-d69d5e57c04ee6948b19ea595465f99c",
+    "cab-d92c43ee8c53bab6fb74b482dd5c4f1f",
+    "cab-de6006d8791a72c52c3b3920ac371d17",
+    "cab-e097c1cce5b0e0edbe1dfd373f093537",
+    "cab-e18dd9518a812060dd5836fd3e258676",
+    "cab-e1ee790e2ed95288f5e125de43dec1ab",
+    "cab-e4eccba8a9ad4ace006f92021f8a6c03",
+    "cab-e58bc12e390189e58ce1181ff291198d",
+    "cab-e9fbeb44b6095f55079b4d4c1ecfbaea",
+    "cab-ed2f918160b43247ec86605e1564d98d",
+    "cab-ee45925508d5905f3582b54979ab41c6",
+    "cab-f0ddd55f955971e84a2a37f31c85e4bc",
+    "cab-f268200eaf79d807466ccabc4a4288d5",
+    "cab-f5473ea0a9a86184572174bcd417d523",
+    "cab-f5f8e340485217de18d63f1285813716",
+    "cab-f67f547d605cf848b9bc463efe63f2ee",
+    "cab-f9bc1de1e30520443fdb39743cc65c45",
+    "cab-fd528e12a9a5f52b027d54272b7aafc3"
+  ],
+  "limitations": [
+    "No complete character roster verified",
+    "Custom rendering and post processing not restored",
+    "Source MonoBehaviours retained as evidence, not executable game logic"
+  ]
+}

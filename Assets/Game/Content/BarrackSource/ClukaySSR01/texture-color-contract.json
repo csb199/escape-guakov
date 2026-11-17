@@ -1,0 +1,173 @@
+{
+  "source": "Exact source Texture2D m_ColorSpace and native raw texture payload",
+  "textures": [
+    {
+      "name": "c_ClukaySSR01_slg_axe_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_axe_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_axe_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_cloth1_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0010_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0011_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0012_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_cloth2_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0016_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0017_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0018_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0020_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0022_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Clukay_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0025_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0026_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0027_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "A_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0028_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Clukay_eyeblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0032_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Clukay_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0035_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_weapon_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0040_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_weapon_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0041_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_ClukaySSR01_slg_weapon_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0042_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Clukay_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0045_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0046_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Clukay_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0047_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "cw_Peijian3_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0051_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "cw_Peijian3_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0052_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "cw_Peijian3_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/ClukaySSR01/Assets/0053_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

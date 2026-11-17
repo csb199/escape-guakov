@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "SpringfieldSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 227,
+    "materials": 12,
+    "textures": 22,
+    "shaders": 4,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_SpringfieldSSR01_Barracksp_Touch_Head",
+        "c_SpringfieldSSR01_Barracksp_Camera_Aroud",
+        "c_SpringfieldSSR01_BarrackEntrance_Normal",
+        "c_SpringfieldSSR01_Barracksp_Touch_Pocket",
+        "c_SpringfieldSSR01_Barracksp_Touch_Gun",
+        "c_SpringfieldSSR01_Barracksp_Behave_InspectExclusive",
+        "c_SpringfieldSSR01_ToIdle",
+        "c_SpringfieldSSR01_BarrackIdle",
+        "c_SpringfieldSSR01_Barracksp_Camera_Look",
+        "c_SpringfieldSSR01_Barracksp_Behave_Stretch"
+    ]
+}

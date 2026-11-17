@@ -1,0 +1,197 @@
+{
+  "source": "Exact source Texture2D m_ColorSpace and native raw texture payload",
+  "textures": [
+    {
+      "name": "B_body_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "B_body_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "B_body_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_cloth1_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0010_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0011_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0012_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_cloth2_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0017_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0018_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0019_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0023_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Peri_slg_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0026_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0027_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0028_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "C_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0029_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Peri_slg_eyeblend_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0033_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Peri_slg_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0036_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Tongyong_SmokeGrenade_slg_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0041_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Tongyong_SmokeGrenade_slg_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0042_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Tongyong_SmokeGrenade_slg_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0043_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0044_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Tongyong_FlashGrenade_slg_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0047_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Tongyong_FlashGrenade_slg_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0048_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Tongyong_FlashGrenade_slg_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0049_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Peri_slg_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0052_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0053_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Peri_slg_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0054_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_weapon_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0058_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_weapon_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0059_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_PeriSSR01_slg_weapon_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0060_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/PeriSSR01/Assets/0061_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

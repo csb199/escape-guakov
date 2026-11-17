@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "BiyocaSSR01",
+    "renderers": 5,
+    "meshes": 5,
+    "boneReferences": 179,
+    "materials": 11,
+    "textures": 21,
+    "shaders": 4,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_BiyocaSSR01_Barracksp_Touch_Pocket",
+        "c_BiyocaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_BiyocaSSR01_Barracksp_Camera_Aroud",
+        "c_BiyocaSSR01_BarrackIdle",
+        "c_BiyocaSSR01_ToIdle",
+        "c_BiyocaSSR01_Barracksp_Camera_Look",
+        "c_BiyocaSSR01_BarrackIdle_TurnLeft",
+        "c_BiyocaSSR01_Barracksp_Behave_Stretch",
+        "c_BiyocaSSR01_BarrackEntrance_Normal",
+        "c_BiyocaSSR01_Barracksp_Touch_Head",
+        "c_BiyocaSSR01_BarrackIdle_TurnRight",
+        "c_BiyocaSSR01_Barracksp_Touch_Gun"
+    ]
+}

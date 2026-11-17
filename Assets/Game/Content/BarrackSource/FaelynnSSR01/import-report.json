@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "FaelynnSSR01",
+    "renderers": 7,
+    "meshes": 7,
+    "boneReferences": 271,
+    "materials": 18,
+    "textures": 30,
+    "shaders": 6,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_FaelynnSSR01_Barracksp_Camera_Aroud",
+        "c_FaelynnSSR01_Barracksp_Touch_Gun",
+        "c_FaelynnSSR01_Barracksp_Camera_Look",
+        "c_FaelynnSSR01_Barracksp_Touch_Head",
+        "c_FaelynnSSR01_BarrackIdle",
+        "c_FaelynnSSR01_Barracksp_Behave_InspectExclusive",
+        "c_FaelynnSSR01_BarrackEntrance_Normal",
+        "c_FaelynnSSR01_Barracksp_Touch_Pocket",
+        "c_FaelynnSSR01_ToIdle",
+        "c_FaelynnSSR01_Barracksp_Behave_Stretch"
+    ]
+}

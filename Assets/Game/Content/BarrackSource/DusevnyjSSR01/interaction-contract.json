@@ -1,0 +1,187 @@
+{
+  "character": "DusevnyjSSR01",
+  "sourceBundle": "02da0baee5f8a85d0edc073e59da3e60.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.029999999329447746,
+        "y": -0.07000000029802322,
+        "z": 0.0
+      },
+      "radius": 0.10999999940395355,
+      "height": 0.3799999952316284,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_L",
+      "event": 1510,
+      "followBone": "",
+      "center": {
+        "x": 0.30000001192092896,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05999999865889549,
+      "height": 0.47999998927116394,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_R",
+      "event": 1511,
+      "followBone": "",
+      "center": {
+        "x": -0.30000001192092896,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05999999865889549,
+      "height": 0.47999998927116394,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.09000000357627869,
+        "z": 0.0
+      },
+      "radius": 0.12999999523162842,
+      "height": 0.12999999523162842,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.1899999976158142,
+        "y": 0.019999999552965164,
+        "z": 0.0
+      },
+      "radius": 0.07000000029802322,
+      "height": 1.0,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 1023151001,
+      "event": 1510,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 102310101,
+      "event": 101,
+      "clip": "c_DusevnyjSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 102310102,
+      "event": 101,
+      "clip": "c_DusevnyjSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 102310201,
+      "event": 102,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 102310202,
+      "event": 102,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 1023151101,
+      "event": 1511,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 102310401,
+      "event": 104,
+      "clip": "c_DusevnyjSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 102320101,
+      "event": 201,
+      "clip": "c_DusevnyjSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 102320102,
+      "event": 201,
+      "clip": "c_DusevnyjSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "150,210",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 102320103,
+      "event": 201,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 102320104,
+      "event": 201,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 102320105,
+      "event": 201,
+      "clip": "c_DusevnyjSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    }
+  ]
+}

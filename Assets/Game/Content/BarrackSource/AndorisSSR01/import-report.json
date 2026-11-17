@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "AndorisSSR01",
+    "renderers": 5,
+    "meshes": 5,
+    "boneReferences": 196,
+    "materials": 12,
+    "textures": 18,
+    "shaders": 4,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_AndorisSSR01_BarrackIdle",
+        "c_AndorisSSR01_ToIdle",
+        "c_AndorisSSR01_Barracksp_Camera_Look",
+        "c_AndorisSSR01_Barracksp_Behave_InspectExclusive",
+        "c_AndorisSSR01_BarrackEntrance_Normal",
+        "c_AndorisSSR01_Barracksp_Behave_Stretch",
+        "c_AndorisSSR01_Barracksp_Touch_Head",
+        "c_AndorisSSR01_Barracksp_Touch_Pocket",
+        "c_AndorisSSR01_Barracksp_Camera_Aroud",
+        "c_AndorisSSR01_Barracksp_Touch_Gun"
+    ]
+}

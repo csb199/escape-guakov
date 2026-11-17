@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "NikketaSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 219,
+    "materials": 12,
+    "textures": 21,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_NikketaSSR01_Barracksp_Touch_Pocket",
+        "c_NikketaSSR01_Barracksp_Camera_Aroud",
+        "c_NikketaSSR01_ToIdle",
+        "c_NikketaSSR01_BarrackIdle",
+        "c_NikketaSSR01_BarrackEntrance_Normal",
+        "c_NikketaSSR01_Barracksp_Behave_Stretch",
+        "c_NikketaSSR01_Barracksp_Touch_Gun",
+        "c_NikketaSSR01_Barracksp_Camera_Look",
+        "c_NikketaSSR01_Barracksp_Touch_Head",
+        "c_NikketaSSR01_Barracksp_Behave_InspectExclusive"
+    ]
+}

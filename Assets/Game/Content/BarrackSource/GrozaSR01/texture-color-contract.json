@@ -1,0 +1,125 @@
+{
+  "source": "RenderDoc frame 8378, character draws 2102-2536",
+  "textures": [
+    {
+      "name": "c_grozaSR01_slg_body_d",
+      "srgb": true,
+      "format": "BC1_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0004_Texture2D.asset"
+    },
+    {
+      "name": "c_grozaSR01_slg_body_n",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0005_Texture2D.asset"
+    },
+    {
+      "name": "c_grozaSR01_slg_body_rmo",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0006_Texture2D.asset"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "format": "R16G16B16A16_FLOAT",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0007_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_cloth_d",
+      "srgb": true,
+      "format": "BC1_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0010_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_cloth_n",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0011_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_cloth_rmo",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0012_Texture2D.asset"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "format": "R16G16B16A16_FLOAT",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0013_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_clothin_d",
+      "srgb": true,
+      "format": "BC1_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0016_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_clothin_n",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0017_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_clothin_rmo",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0018_Texture2D.asset"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "format": "R16G16B16A16_FLOAT",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0019_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_face_d",
+      "srgb": true,
+      "format": "BC7_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0022_Texture2D.asset"
+    },
+    {
+      "name": "C_face_b",
+      "srgb": false,
+      "format": "BC7_UNORM",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0023_Texture2D.asset"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "format": "R16G16B16A16_FLOAT",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0025_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_eyeblend_d",
+      "srgb": true,
+      "format": "BC7_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0029_Texture2D.asset"
+    },
+    {
+      "name": "c_GrozaSR01_slg_eye_d",
+      "srgb": true,
+      "format": "BC7_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0032_Texture2D.asset"
+    },
+    {
+      "name": "c_Groza_hair_d",
+      "srgb": true,
+      "format": "BC1_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0037_Texture2D.asset"
+    },
+    {
+      "name": "c_Groza_hair_spc",
+      "srgb": true,
+      "format": "BC7_SRGB",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0038_Texture2D.asset"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "format": "R16G16B16A16_FLOAT",
+      "asset": "Assets/Game/Content/BarrackSource/GrozaSR01/Assets/0039_Texture2D.asset"
+    }
+  ]
+}

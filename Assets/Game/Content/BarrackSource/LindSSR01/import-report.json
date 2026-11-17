@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "LindSSR01",
+    "renderers": 7,
+    "meshes": 7,
+    "boneReferences": 220,
+    "materials": 14,
+    "textures": 22,
+    "shaders": 5,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_LindSSR01_ToIdle",
+        "c_LindSSR01_Barracksp_Behave_InspectExclusive",
+        "c_LindSSR01_Barracksp_Camera_Look",
+        "c_LindSSR01_Barracksp_Touch_Gun",
+        "c_LindSSR01_Barracksp_Behave_Stretch",
+        "c_LindSSR01_BarrackEntrance_Normal",
+        "c_LindSSR01_BarrackIdle",
+        "c_LindSSR01_Barracksp_Touch_Head",
+        "c_LindSSR01_BarrackIdle_TurnLeft",
+        "c_LindSSR01_BarrackIdle_TurnRight",
+        "c_LindSSR01_Barracksp_Touch_Pocket",
+        "c_LindSSR01_Barracksp_Camera_Aroud"
+    ]
+}

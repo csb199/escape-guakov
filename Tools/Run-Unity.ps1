@@ -1,5 +1,5 @@
 param(
-    [string]$Unity = 'C:\Program Files\Unity 2022.3.62f1\Editor\Unity.exe',
+    [string]$Unity = 'E:\Unity\6000.3.27f2\Editor\Unity.exe',
     [ValidateSet('Prepare','BuildMono','BuildHybrid','Open')][string]$Action = 'BuildMono',
     [switch]$Offline
 )
@@ -57,3 +57,4 @@ if ($Offline) {
     }
 }
 Write-Output "Unity $Action succeeded: $project"
+

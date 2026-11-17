@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "CheyanneSSR01",
+    "renderers": 9,
+    "meshes": 9,
+    "boneReferences": 325,
+    "materials": 16,
+    "textures": 32,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_CheyanneSSR01_BarrackEntrance_Normal",
+        "c_CheyanneSSR01_Barracksp_Behave_Stretch",
+        "c_CheyanneSSR01_ToIdle",
+        "c_CheyanneSSR01_Barracksp_Touch_Head",
+        "c_CheyanneSSR01_Barracksp_Behave_InspectExclusive",
+        "c_CheyanneSSR01_BarrackIdle",
+        "c_CheyanneSSR01_Barracksp_Camera_Aroud",
+        "c_CheyanneSSR01_Barracksp_Touch_Gun",
+        "c_CheyanneSSR01_Barracksp_Touch_Pocket",
+        "c_CheyanneSSR01_Barracksp_Camera_Look"
+    ]
+}

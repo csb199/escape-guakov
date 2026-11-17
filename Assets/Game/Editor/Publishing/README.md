@@ -1,0 +1,5 @@
+# 发布契约入口
+
+ReleasePublisher.ExportBaseline 冻结客户端AOT指纹、元数据及允许的热更引用；Publish 只编译热更包并检查冻结基线，不重建客户端或重新生成桥接。当前内容构建复用可替换Demo示例配置，不将示例规则作为框架目标。
+
+发布明确使用Standalone Player子目标，结束恢复编辑器原子目标，避免之前的Dedicated Server构建影响程序集和资源。更改AOT源码必须重建客户端并重新导出基线，不能绕过指纹检查发布。

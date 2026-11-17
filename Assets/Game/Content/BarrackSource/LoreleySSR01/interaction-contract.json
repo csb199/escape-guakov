@@ -1,0 +1,224 @@
+{
+  "character": "LoreleySSR01",
+  "sourceBundle": "cab-2600c5c003664c363d30c1b8f739a024.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.2199999988079071,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.9300000071525574,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": -0.019999999552965164,
+        "z": 0.0
+      },
+      "radius": 0.12999999523162842,
+      "height": 0.3199999928474426,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_L",
+      "event": 1510,
+      "followBone": "",
+      "center": {
+        "x": 0.2199999988079071,
+        "y": 0.0,
+        "z": -0.009999999776482582
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.5199999809265137,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_L/Arrow_L01",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": -0.05999999865889549,
+        "y": -0.019999999552965164,
+        "z": -0.03999999910593033
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.2800000011920929,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_R",
+      "event": 1511,
+      "followBone": "",
+      "center": {
+        "x": -0.2199999988079071,
+        "y": 0.0,
+        "z": 0.009999999776482582
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.5199999809265137,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M",
+      "event": 1030,
+      "followBone": "",
+      "center": {
+        "x": -0.07000000029802322,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.25999999046325684,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.07999999821186066,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.0,
+      "direction": 1,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 106910101,
+      "event": 101,
+      "clip": "c_LoreleySSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 106910102,
+      "event": 101,
+      "clip": "c_LoreleySSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 1069151101,
+      "event": 1511,
+      "clip": "c_LoreleySSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-60,40",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 106910401,
+      "event": 104,
+      "clip": "c_LoreleySSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-220,-140",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 106910301,
+      "event": 103,
+      "clip": "c_LoreleySSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106920101,
+      "event": 201,
+      "clip": "c_LoreleySSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 106920102,
+      "event": 201,
+      "clip": "c_LoreleySSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-220,-140",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 106920103,
+      "event": 201,
+      "clip": "c_LoreleySSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106920104,
+      "event": 201,
+      "clip": "c_LoreleySSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106920105,
+      "event": 201,
+      "clip": "c_LoreleySSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 1069151001,
+      "event": 1510,
+      "clip": "c_LoreleySSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-60,40",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 106910201,
+      "event": 102,
+      "clip": "c_LoreleySSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 106910202,
+      "event": 102,
+      "clip": "c_LoreleySSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    }
+  ]
+}

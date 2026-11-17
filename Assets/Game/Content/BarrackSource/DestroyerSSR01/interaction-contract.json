@@ -1,0 +1,210 @@
+{
+  "character": "DestroyerSSR01",
+  "sourceBundle": "cab-12abe0eba000497dabff4a0c178382e9.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Hip_M/Hip_L",
+      "event": 1510,
+      "followBone": "",
+      "center": {
+        "x": 0.17000000178813934,
+        "y": 0.029999999329447746,
+        "z": -0.009999999776482582
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.46000000834465027,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_M/Hip_R",
+      "event": 1511,
+      "followBone": "",
+      "center": {
+        "x": -0.17000000178813934,
+        "y": -0.029999999329447746,
+        "z": 0.009999999776482582
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.46000000834465027,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M",
+      "event": 1040,
+      "followBone": "",
+      "center": {
+        "x": 0.03999999910593033,
+        "y": -0.019999999552965164,
+        "z": 0.0
+      },
+      "radius": 0.10999999940395355,
+      "height": 0.2800000011920929,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M",
+      "event": 1030,
+      "followBone": "",
+      "center": {
+        "x": -0.05999999865889549,
+        "y": -0.009999999776482582,
+        "z": 0.0
+      },
+      "radius": 0.09000000357627869,
+      "height": 0.20000000298023224,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.09000000357627869,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.18000000715255737,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/Elbow_R/ElbowPart1_R/ElbowPart2_R/ElbowPart3_R/Wrist_R",
+      "event": 1020,
+      "followBone": "",
+      "center": {
+        "x": -0.09000000357627869,
+        "y": 0.0,
+        "z": 0.009999999776482582
+      },
+      "radius": 0.07999999821186066,
+      "height": 0.3799999952316284,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 108810101,
+      "event": 101,
+      "clip": "c_DestroyerSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 108810102,
+      "event": 101,
+      "clip": "c_DestroyerSSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 108820101,
+      "event": 201,
+      "clip": "c_DestroyerSSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 108820102,
+      "event": 201,
+      "clip": "c_DestroyerSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-220,-140",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 108820103,
+      "event": 201,
+      "clip": "c_DestroyerSSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 108820104,
+      "event": 201,
+      "clip": "c_DestroyerSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "-90,90",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 108820105,
+      "event": 201,
+      "clip": "c_DestroyerSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 1088151001,
+      "event": 1510,
+      "clip": "c_DestroyerSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-90,90",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 1088151102,
+      "event": 1511,
+      "clip": "c_DestroyerSSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-90,90",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 108810201,
+      "event": 102,
+      "clip": "c_DestroyerSSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 108810202,
+      "event": 102,
+      "clip": "c_DestroyerSSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "0,720",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 108810301,
+      "event": 103,
+      "clip": "c_DestroyerSSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "-90,90",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 108810401,
+      "event": 104,
+      "clip": "c_DestroyerSSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-220,-140",
+      "vertical": "",
+      "zoom": "0.4,1"
+    }
+  ]
+}

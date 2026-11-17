@@ -1,0 +1,25 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "GrozaSR01",
+    "renderers": 5,
+    "meshes": 5,
+    "boneReferences": 204,
+    "materials": 10,
+    "textures": 21,
+    "shaders": 4,
+    "clips": 11,
+    "avatar": true,
+    "actions": [
+        "c_GrozaSR01_BarrackEntrance_Normal",
+        "c_GrozaSR01_Barracksp_Behave_InspectNormal",
+        "c_GrozaSR01_ToIdle",
+        "c_GrozaSR01_BarrackIdle",
+        "c_GrozaSR01_Barracksp_Behave_Stretch",
+        "c_GrozaSR01_Barracksp_Touch_Head",
+        "c_GrozaSR01_Barracksp_Camera_Aroud",
+        "c_GrozaSR01_Barracksp_Touch_Gun",
+        "c_GrozaSR01_Barracksp_Behave_InspectExclusive",
+        "c_GrozaSR01_Barracksp_Touch_Pocket",
+        "c_GrozaSR01_Barracksp_Camera_Look"
+    ]
+}

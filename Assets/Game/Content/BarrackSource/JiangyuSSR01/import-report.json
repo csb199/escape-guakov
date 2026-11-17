@@ -1,0 +1,25 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "JiangyuSSR01",
+    "renderers": 5,
+    "meshes": 5,
+    "boneReferences": 254,
+    "materials": 13,
+    "textures": 18,
+    "shaders": 5,
+    "clips": 11,
+    "avatar": true,
+    "actions": [
+        "c_JiangyuSSR01_Barracksp_Behave_Stretch",
+        "c_JiangyuSSR01_Barracksp_Touch_Head",
+        "c_JiangyuSSR01_BarrackIdle",
+        "c_JiangyuSSR01_Barracksp_Behave_InspectNormal",
+        "c_JiangyuSSR01_ToIdle",
+        "c_JiangyuSSR01_BarrackEntrance_Normal",
+        "c_JiangyuSSR01_Barracksp_Touch_Pocket",
+        "c_JiangyuSSR01_Barracksp_Camera_Aroud",
+        "c_JiangyuSSR01_Barracksp_Touch_Gun",
+        "c_JiangyuSSR01_Barracksp_Behave_InspectExclusive",
+        "c_JiangyuSSR01_Barracksp_Camera_Look"
+    ]
+}

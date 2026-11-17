@@ -1,0 +1,25 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "NemesisGnosisSSR01",
+    "renderers": 14,
+    "meshes": 14,
+    "boneReferences": 433,
+    "materials": 15,
+    "textures": 37,
+    "shaders": 5,
+    "clips": 11,
+    "avatar": true,
+    "actions": [
+        "c_NemesisGnosisSSR01_Barracksp_Behave_InspectNormal",
+        "c_NemesisGnosisSSR01_BarrackIdle",
+        "c_NemesisGnosisSSR01_Barracksp_Behave_Stretch",
+        "c_NemesisGnosisSSR01_Barracksp_Camera_Look",
+        "c_NemesisGnosisSSR01_ToIdle",
+        "c_NemesisGnosisSSR01_Barracksp_Touch_Head",
+        "c_NemesisGnosisSSR01_BarrackEntrance_Normal",
+        "c_NemesisGnosisSSR01_Barracksp_Camera_Aroud",
+        "c_NemesisGnosisSSR01_Barracksp_Touch_Gun",
+        "c_NemesisGnosisSSR01_Barracksp_Touch_Pocket",
+        "c_NemesisGnosisSSR01_Barracksp_Behave_InspectExclusive"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "ZhaohuiSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 182,
+    "materials": 14,
+    "textures": 23,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_ZhaohuiSSR01_BarrackIdle",
+        "c_ZhaohuiSSR01_Barracksp_Behave_InspectExclusive",
+        "c_ZhaohuiSSR01_Barracksp_Behave_Stretch",
+        "c_ZhaohuiSSR01_Barracksp_Touch_Pocket",
+        "c_ZhaohuiSSR01_ToIdle",
+        "c_ZhaohuiSSR01_Barracksp_Touch_Head",
+        "c_ZhaohuiSSR01_Barracksp_Camera_Aroud",
+        "c_ZhaohuiSSR01_Barracksp_Touch_Gun",
+        "c_ZhaohuiSSR01_BarrackEntrance_Normal",
+        "c_ZhaohuiSSR01_Barracksp_Camera_Look"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+  "character": "RobellaSSR01",
+  "resourceIdentity": "unresolved",
+  "selections": [
+    {
+      "character": "RobellaSSR01",
+      "renderer": "c_RobellaSSR01_slg_face_lod0",
+      "meshCab": "cab-6054ad7de8fd882854e5abe625f8e901",
+      "meshPathID": "-8237493880192076451",
+      "assetKey": "25aece887d784314e9b1e047caae0ade",
+      "sourceTreeSHA256": "334db9e7dd7b016506395e21144d61d6e146f47c435f8c887633f4a2e02073d9",
+      "resourceIdentity": "unresolved",
+      "selectionBasis": "numeric_payload_equivalent",
+      "evidenceReport": "TestResults/barrack-equivalence-import-2026-11-13/mesh-equivalence-audit.json",
+      "scope": "Parsed source payload comparison; not a GPU capture identity match. Only listed clips may be exposed. Source data retained unchanged.",
+      "inspectedClips": [
+        "c_RobellaSSR01_ToIdle",
+        "c_RobellaSSR01_Barracksp_Camera_Aroud",
+        "c_RobellaSSR01_BarrackIdle",
+        "c_RobellaSSR01_Barracksp_Touch_Pocket",
+        "c_RobellaSSR01_BarrackIdle_TurnLeft",
+        "c_RobellaSSR01_Barracksp_Touch_Head",
+        "c_RobellaSSR01_Barracksp_Camera_Look",
+        "c_RobellaSSR01_Barracksp_Behave_Stretch",
+        "c_RobellaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_RobellaSSR01_BarrackEntrance_Normal",
+        "c_RobellaSSR01_Barracksp_Touch_Gun",
+        "c_RobellaSSR01_BarrackIdle_TurnRight"
+      ],
+      "excludedClips": [],
+      "decodedAttributeDifferences": [
+        {
+          "m_Vertices": 0.0,
+          "m_Normals": 0.0,
+          "m_Tangents": 0.0,
+          "m_Colors": 0.0,
+          "m_UV0": 0.0,
+          "m_UV1": 0.0,
+          "m_BoneIndices": 0.0,
+          "m_IndexBuffer": 0.0
+        },
+        {
+          "m_Vertices": 5.587935447692871e-09,
+          "m_Normals": 0.0,
+          "m_Tangents": 5.960464477539063e-08,
+          "m_Colors": 1.7881393432617188e-07,
+          "m_UV0": 0.0,
+          "m_UV1": 0.0,
+          "m_BoneIndices": 0.0,
+          "m_IndexBuffer": 0.0
+        }
+      ],
+      "numericTolerance": 5e-07,
+      "clipChecks": []
+    }
+  ]
+}

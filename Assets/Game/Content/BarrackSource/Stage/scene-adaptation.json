@@ -1,0 +1,9 @@
+{
+  "source": "LocalOnly\\Barrack\\live\\stage-closure\\bundles\\cab-6d4a13e19b845a96b4a0d3b9a0355f5c.bundle",
+  "sourceSha256": "ca59661810e5ee8746fe97a4fbc0f13bc4b27782d40ec68bb7502de8e9fe5966",
+  "outputSha256": "b8487a0d7d0108a15d8ae3a52596c1127def2a46de227ef0fb7d2761ba398be3",
+  "sceneCab": "cab-6d4a13e19b845a96b4a0d3b9a0355f5c",
+  "removedMonoBehaviours": 11,
+  "changedGameObjects": 8,
+  "keptEngineObjects": 4121
+}

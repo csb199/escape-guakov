@@ -1,0 +1,113 @@
+{
+  "source": "Source Texture2D m_ColorSpace and native raw payload",
+  "textures": [
+    {
+      "name": "c_JiangyuSSR01_slg_cloth2_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_JiangyuSSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_JiangyuSSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_JiangyuSSR01_slg_cloth1_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0010_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_JiangyuSSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0011_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_JiangyuSSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0012_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0020_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Jiangyu_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0023_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0024_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0025_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "C_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0026_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Jiangyu_eyeblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0030_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Jiangyu_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0033_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Jiangyu_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0038_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0039_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Jiangyu_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/JiangyuSSR01/Assets/0040_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "KseniaSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 180,
+    "materials": 12,
+    "textures": 22,
+    "shaders": 4,
+    "clips": 11,
+    "avatar": true,
+    "actions": [
+        "c_KseniaSR01_Barracksp_Touch_Pocket",
+        "c_KseniaSR01_Barracksp_Behave_InspectExclusive",
+        "c_KseniaSR01_BarrackIdle",
+        "c_KseniaSR01_BarrackEntrance_Normal",
+        "c_KseniaSR01_Barracksp_Behave_InspectNormal",
+        "c_KseniaSR01_ToIdle",
+        "c_KseniaSR01_Barracksp_Touch_Head",
+        "c_KseniaSR01_Barracksp_Camera_Look",
+        "c_KseniaSR01_Barracksp_Touch_Gun",
+        "c_KseniaSR01_Barracksp_Camera_Aroud",
+        "c_KseniaSR01_Barracksp_Behave_Stretch"
+    ]
+}

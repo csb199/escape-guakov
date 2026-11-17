@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "YooHeeSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 242,
+    "materials": 14,
+    "textures": 27,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_YooHeeSSR01_Barracksp_Behave_Stretch",
+        "c_YooHeeSSR01_Barracksp_Camera_Look",
+        "c_YooHeeSSR01_Barracksp_Touch_Gun",
+        "c_YooHeeSSR01_ToIdle",
+        "c_YooHeeSSR01_Barracksp_Behave_InspectExclusive",
+        "c_YooHeeSSR01_Barracksp_Touch_Head",
+        "c_YooHeeSSR01_Barracksp_Camera_Aroud",
+        "c_YooHeeSSR01_Barracksp_Touch_Pocket",
+        "c_YooHeeSSR01_BarrackEntrance_Normal",
+        "c_YooHeeSSR01_BarrackIdle"
+    ]
+}

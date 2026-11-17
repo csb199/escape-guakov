@@ -1,0 +1,201 @@
+{
+  "character": "MishtySSR01",
+  "sourceBundle": "3bf887d935c75ef1c0b2249fdb72001b.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Hip_L/HipPart1_L",
+      "event": 1510,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.009999999776482582
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.3799999952316284,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Hip_R/HipPart1_R",
+      "event": 1511,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.009999999776482582
+      },
+      "radius": 0.07000000029802322,
+      "height": 0.3799999952316284,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M",
+      "event": 1030,
+      "followBone": "",
+      "center": {
+        "x": -0.009999999776482582,
+        "y": -0.009999999776482582,
+        "z": 0.0
+      },
+      "radius": 0.10999999940395355,
+      "height": 0.25,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Lf_armor_Ctrl1_Jnt_skin",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.05000000074505806,
+      "height": 0.05000000074505806,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.07000000029802322,
+        "z": 0.0
+      },
+      "radius": 0.10999999940395355,
+      "height": 0.23000000417232513,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.23000000417232513,
+        "y": 0.03999999910593033,
+        "z": 0.019999999552965164
+      },
+      "radius": 0.09000000357627869,
+      "height": 0.7900000214576721,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 105110301,
+      "event": 103,
+      "clip": "c_MishtySSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-80,-45",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 1051151001,
+      "event": 1510,
+      "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105110601,
+      "event": 106,
+      "clip": "c_MishtySSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-60,60",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 105110201,
+      "event": 102,
+      "clip": "c_MishtySSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 105110202,
+      "event": 102,
+      "clip": "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105110101,
+      "event": 101,
+      "clip": "c_MishtySSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 105110102,
+      "event": 101,
+      "clip": "c_MishtySSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 1051151101,
+      "event": 1511,
+      "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105120101,
+      "event": 201,
+      "clip": "c_MishtySSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 105120102,
+      "event": 201,
+      "clip": "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 105120103,
+      "event": 201,
+      "clip": "c_MishtySSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-80,-45",
+      "vertical": "",
+      "zoom": "0.4,1"
+    },
+    {
+      "id": 105120104,
+      "event": 201,
+      "clip": "c_MishtySSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    }
+  ]
+}

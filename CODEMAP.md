@@ -36,6 +36,8 @@
 
 ## 核心功能定位
 
+M1 独立网络技术原型：Assets/Game/Prototypes/M1/README.md；灰盒构建入口 Assets/Game/Editor/M1/M1Builder.cs；纯 .NET 传输实验 Experiments/M1/README.md。当前未接入正式 Boot/热更发布，不属于稳定通用框架。
+
 | 功能 | 核心入口 | Unity 适配 |
 |---|---|---|
 | 生命周期 | Core/Lifecycle.cs、GameEntryModule.cs | Runtime/GameRuntime.cs |
@@ -66,6 +68,16 @@ IDemoValidation 是已有自动验收接缝；验证代码仍位于业务程序�
 
 ## 修改与阅读规则
 
+
+
 通用机制在 Core，Unity API 在 Runtime，业务在 HotUpdate。框架服务在 GameRuntime 组装，业务服务在 IGameEntry.RegisterModules 注册。模块职责与完整运行时序见 [ARCHITECTURE](ARCHITECTURE.md)。
 
 只编辑根工程；LocalOnly/OfflineProject 由工具同步。移动资产保留 .meta GUID，更改程序集/入口全名需同步发布契约。历史报告可能仍使用旧路径，以本索引为准。签名私钥、已编译客户端与测试运行目录不进入 Git。
+
+## Unity 6 整备室开发入口
+
+当前开发版本为 Unity 6000.3.27f2。编辑器默认播放 Assets/Game/Scenes/Barrack.unity；入口与验证见 Assets/Game/Editor/Barrack/README.md。角色展示宿主在 HotUpdate/Barrack，发布资源接入继续使用 BarrackProcedure。Boot 仍是签名客户端入口；上文只包含 Boot 的构建约定针对发布链路，编辑器展示使用独立场景。真实默认背景、原生材质、环境光照、阴影、反射与宿主后处理已接入；动作/UI/镜头由业务状态机驱动。验证入口 BarrackFullValidation，原作实机逐像素一致性及完整发布不包含在编辑器验收中。
+
+
+
+

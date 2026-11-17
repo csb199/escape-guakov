@@ -1,0 +1,45 @@
+{
+  "character": "VectorSSR01",
+  "resourceIdentity": "unresolved",
+  "selections": [
+    {
+      "character": "VectorSSR01",
+      "renderer": "c_VectorSSR01_slg_face_lod0",
+      "meshCab": "cab-66f0b7ca3106c3ab8b4de7c3a9da8e68",
+      "meshPathID": "3266565006849153761",
+      "assetKey": "b6641cfde32b6084ea6bf0c3b81bd154",
+      "sourceTreeSHA256": "936e093fd5894329e12d9ae38c04dddfd02cf3166944ad9686f00d01024cdd2b",
+      "resourceIdentity": "unresolved",
+      "selectionBasis": "captured static mesh match; equivalent for the ten inspected parsed barrack clips",
+      "captureSHA256": "534eb4123569ba0211ffdecedfadf918c67aa7510d818c162da55690dea6f234",
+      "captureEvent": 2204,
+      "evidenceReport": "TestResults/barrack-vector-import-2026-11-13/mesh-version-verification.json",
+      "scope": "Only the inspected default-outfit barrack clips. Eyes_kuqi differs across surviving payload classes and remains zero in those clips. No unique CAB claim.",
+      "inspectedClips": [
+        "c_VectorSSR01_BarrackEntrance_Normal",
+        "c_VectorSSR01_BarrackIdle",
+        "c_VectorSSR01_Barracksp_Behave_InspectExclusive",
+        "c_VectorSSR01_Barracksp_Behave_Stretch",
+        "c_VectorSSR01_Barracksp_Camera_Aroud",
+        "c_VectorSSR01_Barracksp_Camera_Look",
+        "c_VectorSSR01_Barracksp_Touch_Gun",
+        "c_VectorSSR01_Barracksp_Touch_Head",
+        "c_VectorSSR01_Barracksp_Touch_Pocket",
+        "c_VectorSSR01_ToIdle"
+      ]
+    }
+  ],
+  "presentationLimitations": [
+    {
+      "kind": "separate-equipped-weapon",
+      "sourceTexture": "cw_BpSMGssr001_WL_d",
+      "sourceDrawEvent": 2187,
+      "status": "not imported by character prefab contract",
+      "hiddenActions": [
+        "c_VectorSSR01_Barracksp_Touch_Gun",
+        "c_VectorSSR01_Barracksp_Behave_InspectExclusive"
+      ],
+      "note": "The source capture also draws four modular WeaponPart attachments. Character native body/cloth/face/hair/accessory renderers are imported; equipped weapon is separate. Original idle pose is retained."
+    }
+  ]
+}

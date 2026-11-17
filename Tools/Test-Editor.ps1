@@ -1,4 +1,4 @@
-param([switch]$Offline, [string]$Unity = 'C:\Program Files\Unity 2022.3.62f1\Editor\Unity.exe')
+param([switch]$Offline, [string]$Unity = 'E:\Unity\6000.3.27f2\Editor\Unity.exe')
 $ErrorActionPreference = 'Stop'
 $project = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $working = $project
@@ -18,3 +18,4 @@ if ($process.ExitCode -ne 0) { throw "Editor validation failed: $result" }
 $report = Get-Content "$result/demo-report.json" -Raw | ConvertFrom-Json
 if (!$report.passed -or $report.checks.Count -lt 62 -or !(Test-Path "$result/shutdown-check.txt")) { throw 'Incomplete Editor validation' }
 Write-Output "PASS: Editor Play Mode, $($report.checks.Count) checks and shutdown: $result"
+

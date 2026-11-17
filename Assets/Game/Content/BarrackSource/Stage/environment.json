@@ -1,0 +1,229 @@
+{
+  "sourceScene": "04Aimo_Training_Platform_GFPC",
+  "sourceProfile": "5645129384652940861",
+  "shadowResolution": 4096,
+  "shadowDistance": 15.0,
+  "cascadeSplit": 0.25,
+  "shadowDepthBias": 1.0,
+  "shadowNormalBias": 1.0,
+  "renderScale": 1.399999976158142,
+  "cameraMask": -524489,
+  "ambientSH": [
+    0.4222297668457031,
+    -0.1270483434200287,
+    0.007307849824428558,
+    -0.0003388230106793344,
+    -0.00015194181469269097,
+    0.005177800543606281,
+    0.00766882486641407,
+    0.0006993258139118552,
+    0.022665226832032204,
+    0.449817955493927,
+    0.06466991454362869,
+    0.006161555647850037,
+    -0.0010435699950903654,
+    -0.0005627547507174313,
+    0.004121793434023857,
+    0.0011735986918210983,
+    0.0017022753600031137,
+    0.005356557201594114,
+    0.45524924993515015,
+    0.23935699462890625,
+    0.00240151584148407,
+    -0.0008262485498562455,
+    -0.0005186113994568586,
+    0.0014699660241603851,
+    -0.004991937428712845,
+    0.0011042235419154167,
+    -0.012924479320645332
+  ],
+  "ambientIntensity": 0.5,
+  "reflectionIntensity": 1.0,
+  "rimColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "lightmapShadow": 0.20000000298023224,
+  "sfxIntensity": 0.25,
+  "bodyFaceAlpha": 0.9599999785423279,
+  "features": [
+    {
+      "name": "CharacterUnderBG",
+      "eventOrder": 300,
+      "queue": 2,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFCharUnderBG"
+      ]
+    },
+    {
+      "name": "CharacterUnderBGOutline",
+      "eventOrder": 300,
+      "queue": 2,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFCharUnderBGOutline"
+      ]
+    },
+    {
+      "name": "CharForward",
+      "eventOrder": 300,
+      "queue": 0,
+      "queueStart": 0,
+      "queueEnd": 2450,
+      "layerMask": 24576,
+      "tags": [
+        "GFCharForward"
+      ]
+    },
+    {
+      "name": "HairShadow",
+      "eventOrder": 300,
+      "queue": 0,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFHairShadow"
+      ]
+    },
+    {
+      "name": "CharEyeComposite",
+      "eventOrder": 300,
+      "queue": 0,
+      "queueStart": 2451,
+      "queueEnd": 2500,
+      "layerMask": 24576,
+      "tags": [
+        "GFCharForward"
+      ]
+    },
+    {
+      "name": "CharFaceShadow",
+      "eventOrder": 300,
+      "queue": 0,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFCharFaceShadow"
+      ]
+    },
+    {
+      "name": "CharFaceSign",
+      "eventOrder": 300,
+      "queue": 0,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFCharFaceSign"
+      ]
+    },
+    {
+      "name": "CharHairTrans",
+      "eventOrder": 300,
+      "queue": 0,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "CharacterOutline",
+      "eventOrder": 300,
+      "queue": 0,
+      "layerMask": 4294967295,
+      "tags": [
+        "GFOutline"
+      ]
+    },
+    {
+      "name": "ObjTransOutline",
+      "eventOrder": 500,
+      "queue": 1,
+      "layerMask": 4294967295,
+      "tags": [
+        "ObjTransOutline"
+      ]
+    },
+    {
+      "name": "TutorialBG",
+      "eventOrder": 300,
+      "queue": 0,
+      "layerMask": 16826368,
+      "tags": [
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "TutorialOutline",
+      "eventOrder": 500,
+      "queue": 0,
+      "layerMask": 16826368,
+      "tags": [
+        "GFStencilBGOutline"
+      ]
+    },
+    {
+      "name": "NewKWSWaterSystemRendererFeature",
+      "eventOrder": 500,
+      "queue": 1,
+      "layerMask": 16,
+      "tags": [
+        "Water",
+        "UniversalForward",
+        "SRPDefaultUnlit"
+      ]
+    }
+  ],
+  "bloomThreshold": 0.8999999761581421,
+  "bloomIntensity": 0.20000000298023224,
+  "contrast": 0.10000000149011612,
+  "saturation": 23.399999618530273,
+  "exposure": 0.0,
+  "colorFilter": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "aoIntensity": 0.800000011920929,
+  "aoRadius": 0.5,
+  "aoFalloff": 0.4000000059604645,
+  "vignetteIntensity": 0.25,
+  "vignetteSmoothness": 0.11999999731779099,
+  "vignetteColor": {
+    "r": 0.20000000298023224,
+    "g": 0.20000000298023224,
+    "b": 0.20000000298023224,
+    "a": 1.0
+  },
+  "filmSlope": 0.9100000262260437,
+  "filmToe": 0.4699999988079071,
+  "filmShoulder": 0.23000000417232513,
+  "filmBlackClip": 0.0,
+  "filmWhiteClip": 0.03500000014901161,
+  "fogColor": {
+    "r": 0.5568627715110779,
+    "g": 0.6980392336845398,
+    "b": 0.6933333277702332,
+    "a": 1.0
+  },
+  "fogDensity": 0.1899999976158142,
+  "fogHeight": 10.0,
+  "fogFalloff": 2.4700000286102295,
+  "fogOpacity": 0.06599999964237213,
+  "fogStart": 3.5,
+  "linearFogColor": {
+    "r": 0.5346980094909668,
+    "g": 0.7359607815742493,
+    "b": 0.765999972820282,
+    "a": 1.0
+  },
+  "linearFogStart": 10.0,
+  "linearFogEnd": 400.0,
+  "reflectionBlur": 1.649999976158142,
+  "reflectionColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 0.8509804010391235
+  }
+}

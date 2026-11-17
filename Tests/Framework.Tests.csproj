@@ -9,6 +9,7 @@
     <Compile Include="../Assets/Game/Core/*.cs" />
     <Compile Include="../Assets/Game/HotUpdate/Demo/Services/DemoModel.cs" />
     <Compile Include="../Assets/Game/HotUpdate/Demo/Services/Scores.cs" />
+    <Compile Include="../Assets/Game/HotUpdate/Barrack/BarrackInteraction.cs" />
     <Compile Include="*.cs" />
   </ItemGroup>
 </Project>

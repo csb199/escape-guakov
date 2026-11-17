@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "HarpsySSR01",
+    "renderers": 4,
+    "meshes": 4,
+    "boneReferences": 221,
+    "materials": 10,
+    "textures": 17,
+    "shaders": 4,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_HarpsySSR01_BarrackIdle_TurnRight",
+        "c_HarpsySSR01_Barracksp_Behave_Stretch",
+        "c_HarpsySSR01_BarrackIdle",
+        "c_HarpsySSR01_Barracksp_Camera_Aroud",
+        "c_HarpsySSR01_Barracksp_Touch_Head",
+        "c_HarpsySSR01_BarrackIdle_TurnLeft",
+        "c_HarpsySSR01_BarrackEntrance_Normal",
+        "c_HarpsySSR01_Barracksp_Camera_Look",
+        "c_HarpsySSR01_Barracksp_Touch_Gun",
+        "c_HarpsySSR01_ToIdle",
+        "c_HarpsySSR01_Barracksp_Behave_InspectExclusive",
+        "c_HarpsySSR01_Barracksp_Touch_Pocket"
+    ]
+}

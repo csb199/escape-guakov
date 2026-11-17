@@ -1,6 +1,6 @@
 # Unity 可热更新游戏框架
 
-面向 Unity 的模块化 C# 游戏框架，使用 **HybridCLR（华佗）** 实现业务代码热更新，通过 AssetBundle 管理资源与场景。当前验证基线：Unity **2022.3.62f1**、Windows x64、HybridCLR **9.0.3**。
+面向 Unity 的模块化 C# 游戏框架，使用 **HybridCLR（华佗）** 实现业务代码热更新，通过 AssetBundle 管理资源与场景。当前开发基准：Unity **6000.3.27f2**、Windows x64 / D3D11、HybridCLR **9.0.3**。旧版完整发布验收结果不能作为 Unity 6 的发布验收结果。
 
 仓库中的 Demo 仅用于展示服务接入和串联验证，不规定游戏类型或玩法。
 
@@ -89,3 +89,6 @@ dotnet run --project Tests/Framework.Tests.csproj
 - 业务存档模型、流程与远端协议由接入项目定义；示例传输不代表正式后端。
 - 当前验证平台为 Windows x64，其他平台需适配；大规模实体帧率与长期压力需按目标项目测量。
 - 生产签名密钥由发行系统管理，不提交 Git。当前验收范围和历史结果见 [验证记录](TestResults/VALIDATION.md)。
+
+
+整备室开发入口：Assets/Game/Scenes/Barrack.unity；角色、环境与渲染资源保存在 Assets/Game/Content/BarrackSource，大文件通过 Git LFS 管理，克隆后执行 git lfs pull。3C训练场已移除。

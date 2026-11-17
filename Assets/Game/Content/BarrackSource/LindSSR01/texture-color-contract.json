@@ -1,0 +1,137 @@
+{
+  "source": "Source Texture2D m_ColorSpace and native raw payload",
+  "textures": [
+    {
+      "name": "c_LindSSR01_slg_cloth1_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0009_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth2_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0017_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0018_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0019_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0021_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth2_ubertrans_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0024_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth2_ubertrans_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0025_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LindSSR01_slg_cloth2_ubertrans_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0026_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Lind_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0030_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0031_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0032_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "A_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0033_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Lind_eyeblend_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0037_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Lind_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0040_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Lind_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0045_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0046_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Lind_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LindSSR01/Assets/0047_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

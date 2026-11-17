@@ -87,6 +87,16 @@ namespace Game.Editor
         // Command-line publish never calls Prepare, StampClientBuild, GenerateAll or BuildPlayer.
         public static void Publish()
         {
+            var previousSubtarget = EditorUserBuildSettings.standaloneBuildSubtarget;
+            try
+            {
+                EditorUserBuildSettings.standaloneBuildSubtarget = StandaloneBuildSubtarget.Player;
+                PublishCore();
+            }
+            finally { EditorUserBuildSettings.standaloneBuildSubtarget = previousSubtarget; }
+        }
+        static void PublishCore()
+        {
             string baselineDirectory = Path.GetFullPath(Required("--client-baseline"));
             string output = Path.GetFullPath(Required("--release-output"));
             var baseline = JsonUtility.FromJson<ClientBaseline>(File.ReadAllText(Path.Combine(baselineDirectory, "baseline.json")));

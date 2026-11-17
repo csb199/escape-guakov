@@ -1,0 +1,25 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "TololoSSR01",
+    "renderers": 5,
+    "meshes": 5,
+    "boneReferences": 207,
+    "materials": 13,
+    "textures": 22,
+    "shaders": 5,
+    "clips": 11,
+    "avatar": true,
+    "actions": [
+        "c_TololoSSR01_BarrackEntrance_Normal",
+        "c_TololoSSR01_BarrackIdle",
+        "c_TololoSSR01_ToIdle",
+        "c_TololoSSR01_Barracksp_Behave_InspectExclusive",
+        "c_TololoSSR01_Barracksp_Camera_Aroud",
+        "c_TololoSSR01_Barracksp_Touch_Gun",
+        "c_TololoSSR01_Barracksp_Behave_Stretch",
+        "c_TololoSSR01_Barracksp_Behave_InspectNormal",
+        "c_TololoSSR01_Barracksp_Touch_Head",
+        "c_TololoSSR01_Barracksp_Touch_Pocket",
+        "c_TololoSSR01_Barracksp_Camera_Look"
+    ]
+}

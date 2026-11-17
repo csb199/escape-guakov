@@ -1,6 +1,6 @@
-param([switch]$Offline)
+param([switch]$Offline, [string]$ProjectRoot)
 $ErrorActionPreference = 'Stop'
-$project = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+$project = if ($ProjectRoot) { [IO.Path]::GetFullPath($ProjectRoot) } else { [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..')) }
 $config = Get-Content "$project/Assets/Resources/game-config.json" -Raw | ConvertFrom-Json
 $baseline = Join-Path $project "Builds/ClientBaselines/$($config.clientBuild)"
 $results = Join-Path $project ('TestResults/Publish-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
@@ -10,7 +10,7 @@ $player = Join-Path $project 'Builds/HybridCLR/EnergyCollector.exe'
 $native = Join-Path $project 'Builds/HybridCLR/GameAssembly.dll'
 $beforePlayer = (Get-FileHash $player).Hash
 $beforeNative = (Get-FileHash $native).Hash
-& "$PSScriptRoot/Publish-Release.ps1" -Baseline $baseline -Version '1.2.0' -Sequence 3 -Output $output -SigningKey "$project/LocalOnly/demo-signing-key.xml" -DemoVariant DEMO_V3 -Offline:$Offline
+& "$PSScriptRoot/Publish-Release.ps1" -Baseline $baseline -Version '1.2.0' -Sequence 3 -Output $output -SigningKey "$project/LocalOnly/demo-signing-key.xml" -DemoVariant DEMO_V3 -Offline:$Offline -ProjectRoot $project
 Copy-Item "$project/Publish.log" "$results/publish.log"
 if ((Get-FileHash $player).Hash -ne $beforePlayer -or (Get-FileHash $native).Hash -ne $beforeNative) { throw 'Publishing modified the frozen player' }
 
@@ -49,7 +49,7 @@ $bad.aotAssemblies[0].sha256 = '0' * 64
 $bad | ConvertTo-Json -Depth 20 | Set-Content "$badBaseline/baseline.json" -Encoding utf8
 $rejected = $false
 try {
-    & "$PSScriptRoot/Publish-Release.ps1" -Baseline $badBaseline -Version '1.3.0' -Sequence 4 -Output "$results/RejectedRelease" -SigningKey "$project/LocalOnly/demo-signing-key.xml" -DemoVariant DEMO_V3 -Offline:$Offline
+    & "$PSScriptRoot/Publish-Release.ps1" -Baseline $badBaseline -Version '1.3.0' -Sequence 4 -Output "$results/RejectedRelease" -SigningKey "$project/LocalOnly/demo-signing-key.xml" -DemoVariant DEMO_V3 -Offline:$Offline -ProjectRoot $project
 } catch {
     if (!(Select-String -Path "$project/Publish.log" -SimpleMatch 'Frozen client file changed' -Quiet)) { throw }
     $rejected = $true

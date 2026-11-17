@@ -1,0 +1,28 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "CentaureissiSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 189,
+    "materials": 13,
+    "textures": 20,
+    "shaders": 4,
+    "clips": 14,
+    "avatar": true,
+    "actions": [
+        "c_CentaureissiSSR01_Barracksp_Touch_PocketIdle",
+        "c_CentaureissiSSR01_Barracksp_Behave_InspectNormal",
+        "c_CentaureissiSSR01_ToIdle",
+        "c_CentaureissiSSR01_Barracksp_Touch_PocketBack",
+        "c_CentaureissiSSR01_Barracksp_Touch_Gun",
+        "c_CentaureissiSSR01_BarrackIdle",
+        "c_CentaureissiSSR01_Barracksp_Camera_Look",
+        "c_CentaureissiSSR01_Barracksp_Touch_Head",
+        "c_CentaureissiSSR01_Barracksp_Touch_Candy",
+        "c_CentaureissiSSR01_Barracksp_Behave_Stretch",
+        "c_CentaureissiSSR01_Barracksp_Behave_InspectExclusive",
+        "c_CentaureissiSSR01_Barracksp_Camera_Aroud",
+        "c_CentaureissiSSR01_Barracksp_Touch_Pocket",
+        "c_CentaureissiSSR01_BarrackEntrance_Normal"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "DusevnyjSSR01",
+    "renderers": 6,
+    "meshes": 6,
+    "boneReferences": 222,
+    "materials": 12,
+    "textures": 20,
+    "shaders": 4,
+    "clips": 13,
+    "avatar": true,
+    "actions": [
+        "c_DusevnyjSSR01_Barracksp_Camera_Aroud",
+        "c_DusevnyjSSR01_Barracksp_Camera_Look_Camera",
+        "c_DusevnyjSSR01_Barracksp_Camera_Look",
+        "c_DusevnyjSSR01_Barracksp_Behave_InspectExclusive",
+        "c_DusevnyjSSR01_Barracksp_Touch_Head",
+        "c_DusevnyjSSR01_BarrackIdle_TurnLeft",
+        "c_DusevnyjSSR01_BarrackIdle",
+        "c_DusevnyjSSR01_ToIdle",
+        "c_DusevnyjSSR01_BarrackEntrance_Normal",
+        "c_DusevnyjSSR01_Barracksp_Behave_InspectNormal",
+        "c_DusevnyjSSR01_Barracksp_Camera_Aroud_Camera",
+        "c_DusevnyjSSR01_BarrackIdle_TurnRight",
+        "c_DusevnyjSSR01_Barracksp_Behave_Stretch"
+    ]
+}

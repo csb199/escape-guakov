@@ -1,0 +1,100 @@
+{
+  "source": "RenderDoc barrack frame 8378, 2026-11-12; offline presentation snapshot, not live account state",
+  "name": "闪电",
+  "role": "稳态防护 / 反击",
+  "level": "Lv.60/60",
+  "power": "10823",
+  "attributes": [
+    "1668",
+    "4195",
+    "1311",
+    "120%",
+    "12"
+  ],
+  "roster": [
+    {
+      "portrait": "Avatar_Bust_BastiSSR",
+      "power": "13930",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_SuomiSSR",
+      "power": "13869",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_FlorenceSSR02",
+      "power": "13588",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_MishtySSR",
+      "power": "13423",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_MosinnagantSSR",
+      "power": "12553",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_DusevnyjSSR",
+      "power": "12181",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_SabrinaSSR",
+      "power": "12057",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_VepleySSR",
+      "power": "11908",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_LottaSR",
+      "power": "11625",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_CheetaSR01",
+      "power": "10953",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_ZhaohuiSSR01",
+      "power": "10952",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_GrozaSR",
+      "power": "10823",
+      "selected": true
+    },
+    {
+      "portrait": "Avatar_Bust_KseniaSR",
+      "power": "",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_ColphneSR",
+      "power": "",
+      "selected": false
+    },
+    {
+      "portrait": "Avatar_Bust_UllridSSR",
+      "power": "",
+      "selected": false
+    }
+  ],
+  "linearCapturedTextures": [
+    "Avatar_Bust_BastiSSR",
+    "Avatar_Bust_DusevnyjSSR",
+    "Avatar_Bust_FlorenceSSR02",
+    "Avatar_Bust_KseniaSR",
+    "Avatar_Bust_MishtySSR",
+    "Avatar_Bust_MosinnagantSSR",
+    "Avatar_Bust_ZhaohuiSSR01"
+  ]
+}

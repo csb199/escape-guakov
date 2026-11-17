@@ -1,0 +1,24 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "AsteriaSSR01",
+    "renderers": 10,
+    "meshes": 10,
+    "boneReferences": 429,
+    "materials": 18,
+    "textures": 37,
+    "shaders": 5,
+    "clips": 10,
+    "avatar": true,
+    "actions": [
+        "c_AsteriaSSR01_Barracksp_Camera_Aroud",
+        "c_AsteriaSSR01_Barracksp_Behave_InspectExclusive",
+        "c_AsteriaSSR01_Barracksp_Behave_Stretch",
+        "c_AsteriaSSR01_BarrackIdle",
+        "c_AsteriaSSR01_BarrackEntrance_Normal",
+        "c_AsteriaSSR01_Barracksp_Touch_Gun",
+        "c_AsteriaSSR01_Barracksp_Touch_Pocket",
+        "c_AsteriaSSR01_Barracksp_Camera_Look",
+        "c_AsteriaSSR01_Barracksp_Touch_Head",
+        "c_AsteriaSSR01_ToIdle"
+    ]
+}

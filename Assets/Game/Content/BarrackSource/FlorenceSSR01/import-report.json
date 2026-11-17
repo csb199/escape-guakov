@@ -1,0 +1,26 @@
+{
+    "status": "source-assets-with-native-shader-library-rendering-unverified",
+    "model": "FlorenceSSR01",
+    "renderers": 8,
+    "meshes": 8,
+    "boneReferences": 213,
+    "materials": 17,
+    "textures": 29,
+    "shaders": 5,
+    "clips": 12,
+    "avatar": true,
+    "actions": [
+        "c_FlorenceSSR01_BarrackEntrance_Normal",
+        "c_FlorenceSSR01_BarrackIdle_TurnLeft",
+        "c_FlorenceSSR01_Barracksp_Touch_Head",
+        "c_FlorenceSSR01_BarrackIdle_TurnRight",
+        "c_FlorenceSSR01_Barracksp_Behave_InspectExclusive",
+        "c_FlorenceSSR01_Barracksp_Touch_Gun",
+        "c_FlorenceSSR01_Barracksp_Camera_Aroud",
+        "c_FlorenceSSR01_Barracksp_Camera_Look",
+        "c_FlorenceSSR01_ToIdle",
+        "c_FlorenceSSR01_BarrackIdle",
+        "c_FlorenceSSR01_Barracksp_Behave_Stretch",
+        "c_FlorenceSSR01_Barracksp_Touch_Pocket"
+    ]
+}

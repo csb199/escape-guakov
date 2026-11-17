@@ -1,0 +1,203 @@
+{
+  "source": "Source Texture2D m_ColorSpace and native raw payload",
+  "textures": [
+    {
+      "name": "body_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0004_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "body_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0005_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "body_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0006_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0007_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth1_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0010_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth1_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0011_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth1_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0012_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0013_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0015_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth2_da",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0018_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth2_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0019_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_MacqiatoSSR0102_slg_silkstock_noises",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0020_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth2_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0021_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Loreley_slg_face_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0026_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "skinblend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0027_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0028_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "C_face_b",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0029_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Loreley_slg_eyeblend_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0033_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Loreley_slg_eye_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0036_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_Loreley_slg_shetou_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0040_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_hair_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0043_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0044_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_hair_spc",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0045_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth3_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0049_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth3_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0050_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth3_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0051_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0053_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth4_d",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0057_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth4_n",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0058_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth4_gitter",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0059_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth4_rmo",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0060_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "RampMap_Linear_RGBAHalf",
+      "srgb": false,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0061_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth4_blend",
+      "srgb": true,
+      "asset": "Assets/Game/Content/BarrackSource/LoreleySSR01/Assets/0062_Texture2D.asset",
+      "format": "native Texture2D metadata"
+    }
+  ]
+}

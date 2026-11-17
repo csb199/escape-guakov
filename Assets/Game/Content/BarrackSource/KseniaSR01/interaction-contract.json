@@ -1,0 +1,182 @@
+{
+  "character": "KseniaSR01",
+  "sourceBundle": "CAB-89f03950f69cb33cfd8cc5c8daa4f057.bundle",
+  "cameraPoint": "CameraPoint",
+  "capsules": [
+    {
+      "path": "root/Root_M/Spine1_M/Ksenia_bag_Ctrl1_Jnt_skin",
+      "event": 1060,
+      "followBone": "",
+      "center": {
+        "x": 0.009999999776482582,
+        "y": -0.05000000074505806,
+        "z": 0.029999999329447746
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.30000001192092896,
+      "direction": 2,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Ksenia_Mechanics_Jnt1/Ksenia_Mechanics_Jnt2/Ksenia_Mechanics_Jnt3",
+      "event": 1070,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.05999999865889549,
+        "z": -0.019999999552965164
+      },
+      "radius": 0.05000000074505806,
+      "height": 0.1599999964237213,
+      "direction": 1,
+      "enabled": true
+    },
+    {
+      "path": "root/Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M",
+      "event": 1011,
+      "followBone": "",
+      "center": {
+        "x": 0.0,
+        "y": 0.10000000149011612,
+        "z": 0.0
+      },
+      "radius": 0.11999999731779099,
+      "height": 0.1899999976158142,
+      "direction": 0,
+      "enabled": true
+    },
+    {
+      "path": "Weapon",
+      "event": 1020,
+      "followBone": "Weapon_Socket",
+      "center": {
+        "x": -0.019999999552965164,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.03999999910593033,
+      "height": 0.1899999976158142,
+      "direction": 0,
+      "enabled": true
+    }
+  ],
+  "actions": [
+    {
+      "id": 103620101,
+      "event": 201,
+      "clip": "c_KseniaSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 103620102,
+      "event": 201,
+      "clip": "c_KseniaSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-40,40",
+      "vertical": "",
+      "zoom": "0.5,1"
+    },
+    {
+      "id": 103620103,
+      "event": 201,
+      "clip": "c_KseniaSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103620104,
+      "event": 201,
+      "clip": "c_KseniaSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103620105,
+      "event": 201,
+      "clip": "c_KseniaSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103610101,
+      "event": 101,
+      "clip": "c_KseniaSR01_Barracksp_Camera_Look",
+      "weight": 100,
+      "horizontal": "-20,20",
+      "vertical": "",
+      "zoom": "0,0.2"
+    },
+    {
+      "id": 103610102,
+      "event": 101,
+      "clip": "c_KseniaSR01_Barracksp_Camera_Aroud",
+      "weight": 100,
+      "horizontal": "-40,40",
+      "vertical": "",
+      "zoom": "0.5,1"
+    },
+    {
+      "id": 103610103,
+      "event": 101,
+      "clip": "c_KseniaSR01_Barracksp_Touch_Head",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.2,1"
+    },
+    {
+      "id": 103610201,
+      "event": 102,
+      "clip": "c_KseniaSR01_Barracksp_Touch_Gun",
+      "weight": 100,
+      "horizontal": "-30,30",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103610202,
+      "event": 102,
+      "clip": "c_KseniaSR01_Barracksp_Behave_InspectNormal",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103610203,
+      "event": 102,
+      "clip": "c_KseniaSR01_Barracksp_Behave_InspectExclusive",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    },
+    {
+      "id": 103610601,
+      "event": 106,
+      "clip": "c_KseniaSR01_Barracksp_Touch_Pocket",
+      "weight": 100,
+      "horizontal": "-50,50",
+      "vertical": "",
+      "zoom": "0.45,1"
+    },
+    {
+      "id": 103610701,
+      "event": 107,
+      "clip": "c_KseniaSR01_Barracksp_Behave_Stretch",
+      "weight": 100,
+      "horizontal": "",
+      "vertical": "",
+      "zoom": "0.3,1"
+    }
+  ]
+}

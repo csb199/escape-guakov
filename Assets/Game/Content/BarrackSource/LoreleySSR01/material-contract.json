@@ -1,0 +1,306 @@
+{
+  "materials": [
+    {
+      "name": "c_LoreleySSR01_slg_cloth1_uber",
+      "keywords": [
+        "_DOUBLE_SIDED",
+        "_USE_STOCKING"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth3_xiezi_uber",
+      "keywords": [
+        "_USE_STOCKING"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth4_uber",
+      "keywords": [
+        "_USE_STOCKING",
+        "_USE_VOLUMETRIC"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth2_uber",
+      "keywords": [
+        "_USE_STOCKING"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth3_jinse_uber",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth2_ubertrans",
+      "keywords": [
+        "_ALPHATEST_ON",
+        "_USE_STOCKING"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth1_jinse_uber",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_cloth3_uber",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Loreley_slg_eyenew",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFCharHairTrans",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_fringeuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_RAMPMAP",
+        "_SHADOW_ADDITIONAL_BIAS"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharDirOutline",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG",
+        "GFCharFaceShadow"
+      ]
+    },
+    {
+      "name": "c_Loreley_slg_faceuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_GI_FLATTEN",
+        "_RAMPMAP",
+        "_USE_BLEND_TEX"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharDirOutline",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFCharHairTrans",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG",
+        "GFHairShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Loreley_slg_eyelashuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_GI_FLATTEN",
+        "_RAMPMAP",
+        "_USE_BLEND_TEX"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharDirOutline",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Loreley_slg_eyenewadd",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFCharHairTrans",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "c_LoreleySSR01_slg_hairuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_RAMPMAP",
+        "_SHADOW_ADDITIONAL_BIAS"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharDirOutline",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Loreley_slg_shetou_faceuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_GI_FLATTEN",
+        "_RAMPMAP",
+        "_USE_BLEND_TEX"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharDirOutline",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFCharHairTrans",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG",
+        "GFHairShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Loreley_slg_eyenewmul",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFCharHairTrans",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "lod_body_skinuber",
+      "keywords": [
+        "_GI_FLATTEN",
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    }
+  ]
+}

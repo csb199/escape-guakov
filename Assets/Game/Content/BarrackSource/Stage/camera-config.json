@@ -1,0 +1,271 @@
+{
+  "cameras": [
+    {
+      "name": "BaseVirtualCamera",
+      "fieldOfView": 40,
+      "distance": 3,
+      "screenX": 0.5,
+      "screenY": 0.5,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "damping": 0
+    },
+    {
+      "name": "ShotVirtualCamera",
+      "fieldOfView": 40,
+      "distance": 3,
+      "screenX": 0.33000001311302185,
+      "screenY": 0.4000000059604645,
+      "position": {
+        "x": -0.3857387900352478,
+        "y": 0.3361014127731323,
+        "z": 4.78181791305542
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0.9976961612701416,
+        "z": 0,
+        "w": -0.06784110516309738
+      },
+      "damping": 1
+    },
+    {
+      "name": "WeaponVirtualCamera",
+      "fieldOfView": 40,
+      "distance": 3,
+      "screenX": 0.5,
+      "screenY": 0.5,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "damping": 1
+    },
+    {
+      "name": "WeaponToucherVirtualCamera",
+      "fieldOfView": 40,
+      "distance": 3,
+      "screenX": 0.5,
+      "screenY": 0.5,
+      "position": {
+        "x": -2.450000047683716,
+        "y": 1.940000057220459,
+        "z": 3.9000000953674316
+      },
+      "rotation": {
+        "x": 0.23021146655082703,
+        "y": -0.668582558631897,
+        "z": 0.23021146655082703,
+        "w": 0.668582558631897
+      },
+      "damping": 1
+    },
+    {
+      "name": "CharacterNearVirtualCamera",
+      "fieldOfView": 20.001550674438477,
+      "distance": 1.2000000476837158,
+      "screenX": 0.5,
+      "screenY": 0.5,
+      "position": {
+        "x": 0,
+        "y": 0.15970000624656677,
+        "z": 1.342039942741394
+      },
+      "rotation": {
+        "x": 0.008726557716727257,
+        "y": 0,
+        "z": 0,
+        "w": 0.9999619722366333
+      },
+      "damping": 0
+    },
+    {
+      "name": "StageUpVirtualCamera",
+      "fieldOfView": 31.890792846679688,
+      "distance": 3,
+      "screenX": 0.5,
+      "screenY": 0.5,
+      "position": {
+        "x": 1.2146270275115967,
+        "y": -0.17900000512599945,
+        "z": 5.581999778747559
+      },
+      "rotation": {
+        "x": 0.03403564170002937,
+        "y": 0.9340392351150513,
+        "z": 0.09259010851383209,
+        "w": -0.34327730536460876
+      },
+      "damping": 0
+    }
+  ],
+  "blendTime": 2,
+  "source": "BarrackCharacterCanvas / exact native virtual-camera component fields",
+  "executor": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": "3408653023716527989"
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": "1274551300544890591"
+    },
+    "m_Name": "",
+    "Sensity": 1,
+    "FarthestDistanceCameraY": 0.30000001192092896,
+    "FarthestDistanceCameraZ": 0,
+    "NearestDistanceCameraY": 0.5,
+    "NearestDistanceCameraZ": 1.5,
+    "TransitionCurve": {
+      "m_Curve": [
+        {
+          "time": 0,
+          "value": 0,
+          "inSlope": 0,
+          "outSlope": 1,
+          "weightedMode": 0,
+          "inWeight": 0,
+          "outWeight": 0
+        },
+        {
+          "time": 1,
+          "value": 1,
+          "inSlope": 1,
+          "outSlope": 0,
+          "weightedMode": 0,
+          "inWeight": 0,
+          "outWeight": 0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    "EaseType": 1,
+    "RotateSpeed": 0.5,
+    "smoothDampDuration": 0.18000000715255737,
+    "nearCameraOffset": {
+      "x": 0,
+      "y": 0.03999999910593033,
+      "z": 0
+    },
+    "NearestDistance": 1,
+    "FarthestDistance": 10,
+    "NearestFOV": 60,
+    "FarthestFOV": 60,
+    "NearestEulerAngleX": 15,
+    "FarthestEulerAngleX": 5,
+    "EulerAngleXTransitionCurve": {
+      "m_Curve": [
+        {
+          "time": 0,
+          "value": 0,
+          "inSlope": 0,
+          "outSlope": 1,
+          "weightedMode": 0,
+          "inWeight": 0,
+          "outWeight": 0
+        },
+        {
+          "time": 1,
+          "value": 1,
+          "inSlope": 1,
+          "outSlope": 0,
+          "weightedMode": 0,
+          "inWeight": 0,
+          "outWeight": 0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    "DampingFadeTime": 0.20000000298023224,
+    "DebugMode": 0,
+    "TransitionProgress": 0,
+    "HorizontalRotateAngleRange": {
+      "x": -360,
+      "y": 360
+    },
+    "VerticalRotateAngleRange": {
+      "x": -12,
+      "y": 18.5
+    },
+    "BaseToLookAtTransitionTime": 0.5,
+    "LookAtToBaseTransitionTime": 1,
+    "UseLookAtToBaseCurve": 0,
+    "LookAtToBaseCurve": {
+      "m_Curve": [
+        {
+          "time": 0,
+          "value": 0,
+          "inSlope": 0,
+          "outSlope": 1,
+          "weightedMode": 0,
+          "inWeight": 0,
+          "outWeight": 0
+        },
+        {
+          "time": 1,
+          "value": 1,
+          "inSlope": 1,
+          "outSlope": 0,
+          "weightedMode": 0,
+          "inWeight": 0,
+          "outWeight": 0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    "LookAtThreshold": 0.4000000059604645,
+    "BaseToLookAtStartAngleX": 12,
+    "LookAtFollowDuration": 0.20000000298023224,
+    "LookAtRange": 0.5,
+    "transitionFadeTime": 0.30000001192092896,
+    "lookAtToInteractiveDuration": 0.30000001192092896,
+    "globalVerticalMoveSpeed": 0.0005000000237487257,
+    "globalLookAtCameraYOffset": 0,
+    "minCharacterNearTargetHeight": 0.15000000596046448,
+    "enableCharacterNearEulerXRotate": 0,
+    "minCharacterNearCamEulerX": -20,
+    "characterNearRotateSpeed": 0.20000000298023224,
+    "needAnglesInterpolation": 0
+  },
+  "capturedDefault": {
+    "name": "Groza default barrack frame 8378",
+    "position": {
+      "x": -0.013000000268220901,
+      "y": 0.7639999389648438,
+      "z": -2.562000036239624
+    },
+    "rotation": {
+      "x": -0.010480329620758655,
+      "y": 0.0025369167505716102,
+      "z": 2.658926468308495e-05,
+      "w": 0.9999418614295555
+    },
+    "fieldOfView": 40,
+    "distance": 2.562,
+    "screenX": 0.5,
+    "screenY": 0.5
+  }
+}

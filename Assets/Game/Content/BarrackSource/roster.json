@@ -1,0 +1,161 @@
+{
+  "characters": [
+    {
+      "id": "GrozaSR01",
+      "displayName": "闪电"
+    },
+    {
+      "id": "DusevnyjSSR01",
+      "displayName": "杜莎妮"
+    },
+    {
+      "id": "PhaetusaSSR01",
+      "displayName": "翡图萨"
+    },
+    {
+      "id": "FlorenceSSR01",
+      "displayName": "芙洛伦"
+    },
+    {
+      "id": "ZhaohuiSSR01",
+      "displayName": "朝晖"
+    },
+    {
+      "id": "ClukaySSR01",
+      "displayName": "可露凯"
+    },
+    {
+      "id": "TololoSSR01",
+      "displayName": "托洛洛"
+    },
+    {
+      "id": "AndorisSSR01",
+      "displayName": "安朵丝"
+    },
+    {
+      "id": "PeriSSR01",
+      "displayName": "佩莉"
+    },
+    {
+      "id": "FaelynnSSR01",
+      "displayName": "芙铃"
+    },
+    {
+      "id": "AsteriaSSR01",
+      "displayName": "阿斯缇亚"
+    },
+    {
+      "id": "CeciliaSSR01",
+      "displayName": "希丽雅"
+    },
+    {
+      "id": "CentaureissiSSR01",
+      "displayName": "桑朵莱希"
+    },
+    {
+      "id": "CheyanneSSR01",
+      "displayName": "夏安"
+    },
+    {
+      "id": "KseniaSR01",
+      "displayName": "科谢尼娅"
+    },
+    {
+      "id": "MitylSSR01",
+      "displayName": "米蒂尔"
+    },
+    {
+      "id": "NikketaSSR01",
+      "displayName": "妮基塔"
+    },
+    {
+      "id": "SakuraSSR01",
+      "displayName": "樱花"
+    },
+    {
+      "id": "VoymastinaSSR01",
+      "displayName": "威玛西娜"
+    },
+    {
+      "id": "YooHeeSSR01",
+      "displayName": "幼熙"
+    },
+    {
+      "id": "BalthildeSSR01",
+      "displayName": "巴希达"
+    },
+    {
+      "id": "DestroyerSSR01",
+      "displayName": "破坏者"
+    },
+    {
+      "id": "HarpsySSR01",
+      "displayName": "哈卜茜"
+    },
+    {
+      "id": "JiangyuSSR01",
+      "displayName": "绛雨"
+    },
+    {
+      "id": "KoledaSSR01",
+      "displayName": "克莱妲"
+    },
+    {
+      "id": "LindSSR01",
+      "displayName": "琳德"
+    },
+    {
+      "id": "LoreleySSR01",
+      "displayName": "罗蕾莱"
+    },
+    {
+      "id": "PapashaSSR01",
+      "displayName": "波波沙"
+    },
+    {
+      "id": "SpringfieldSSR01",
+      "displayName": "春田"
+    },
+    {
+      "id": "UllridSSR01",
+      "displayName": "乌尔丽德"
+    },
+    {
+      "id": "LiushihSSR01",
+      "displayName": "刘莳"
+    },
+    {
+      "id": "BiyocaSSR01",
+      "displayName": "比悠卡"
+    },
+    {
+      "id": "NemesisGnosisSSR01",
+      "displayName": "纳美西丝·衍光"
+    },
+    {
+      "id": "VectorSSR01",
+      "displayName": "维克托",
+      "excludedClips": [
+        "c_VectorSSR01_Barracksp_Behave_InspectExclusive",
+        "c_VectorSSR01_Barracksp_Touch_Gun"
+      ]
+    },
+    {
+      "id": "MishtySSR01",
+      "displayName": "米什缇",
+      "excludedClips": [
+        "c_MishtySSR01_Barracksp_Behave_InspectExclusive",
+        "c_MishtySSR01_Barracksp_Behave_Stretch",
+        "c_MishtySSR01_Barracksp_Camera_Aroud",
+        "c_MishtySSR01_Barracksp_Camera_Look",
+        "c_MishtySSR01_Barracksp_Touch_Gun",
+        "c_MishtySSR01_Barracksp_Touch_Head",
+        "c_MishtySSR01_Barracksp_Touch_Pocket"
+      ]
+    },
+    {
+      "id": "RobellaSSR01",
+      "displayName": "洛贝拉"
+    }
+  ]
+}

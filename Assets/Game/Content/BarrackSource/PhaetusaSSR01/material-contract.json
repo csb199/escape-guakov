@@ -1,0 +1,253 @@
+{
+  "materials": [
+    {
+      "name": "c_Phaetusa_slg_eyenew",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFCharHairTrans",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_fringeuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_RAMPMAP",
+        "_SHADOW_ADDITIONAL_BIAS"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFCharFaceShadow"
+      ]
+    },
+    {
+      "name": "c_Phaetusa_slg_eyenewmul",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFCharHairTrans",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_hairuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_RAMPMAP",
+        "_SHADOW_ADDITIONAL_BIAS"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharDirOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Phaetusa_slg_eyenewadd",
+      "keywords": [],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE",
+        "GFCharHairTrans",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG"
+      ]
+    },
+    {
+      "name": "c_Phaetusa_slg_eyelashuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_GI_FLATTEN",
+        "_RAMPMAP",
+        "_USE_BLEND_TEX"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_Phaetusa_slg_faceuber",
+      "keywords": [
+        "_ANISOTROPIC_SPECULAR",
+        "_BLEND_UV2",
+        "_GI_FLATTEN",
+        "_RAMPMAP",
+        "_USE_BLEND_TEX"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFStencilOutline",
+        "GFCharHairTrans",
+        "GFStencilBGOutline",
+        "GFStencilUnderBG",
+        "GFHairShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "cw_MP443_WL_uber",
+      "keywords": [
+        "_PLANAR_NONE",
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_cloth1_uber",
+      "keywords": [
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_skinuber",
+      "keywords": [
+        "_GI_FLATTEN",
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutline",
+        "GFCharDirOutlineEx",
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_cloth3_uber",
+      "keywords": [
+        "_ALPHATEST_ON",
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_logo_ubertrans",
+      "keywords": [
+        "_ALPHATEST_ON",
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "cw_PhaetusaSSR01_weapon_slg_uber",
+      "keywords": [
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFCharDirOutlineEx",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilOutline",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    },
+    {
+      "name": "c_PhaetusaSSR01_slg_cloth2_uber",
+      "keywords": [
+        "_ALPHATEST_ON",
+        "_RAMPMAP"
+      ],
+      "disabledPasses": [
+        "GFStencilOutline",
+        "GFCharHairTransBattle",
+        "GFCharHairTrans",
+        "GFStencilUnderBG",
+        "GFStencilBGOutline",
+        "GFHairShadow",
+        "GFCharFaceShadow",
+        "GFCharHairTransE"
+      ]
+    }
+  ]
+}
